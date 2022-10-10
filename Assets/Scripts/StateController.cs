@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class StateController
+public class StateController : MonoBehaviour
 {
 
     public Orientation currentOrientation;
     public bool isLeftInitially = true;
+    private Vector2 moveInput;
 
-    public StateController()
+    public void Start()
     {
         int id = Random.Range(1, 5);
         currentOrientation = (Orientation)id;
@@ -44,5 +46,11 @@ public class StateController
         //Debug.Log(currentOrientation);
         return currentOrientation;
     }
+
+    private void OnMove(InputValue input)
+    {
+        moveInput = input.Get<Vector2>();
+    }
+
 }
 

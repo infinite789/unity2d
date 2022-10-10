@@ -19,7 +19,7 @@ public class AnimationController
 
     public float animationCounter = 0f;
 
-    private StateController state;
+    private StateController stateController;
 
     private Vector2 direction;
 
@@ -35,6 +35,7 @@ public class AnimationController
 
     public void CreateAnimations(GameObject gameObject)
     {
+        stateController = FindGameObject.InChildWithTag(gameObject.transform.parent.gameObject, "state").GetComponent<StateController>();
         parentController = gameObject.GetComponentInParent<CharacterController>();
         playerController = gameObject.GetComponent<CharacterLayerController>();
         animationSpeed = parentController.animationSpeed;
@@ -101,11 +102,11 @@ public class AnimationController
     public string getCurrentAnimationString()
     {
 
-        string orientation = parentController.state.getOrientation(direction).ToString();
-        if (orientation == "left" && !parentController.state.isLeftInitially)
+        string orientation = stateController.getOrientation(direction).ToString();
+        if (orientation == "left" && !stateController.isLeftInitially)
         {
             orientation = "right";
-        } else if (orientation == "right" && parentController.state.isLeftInitially)
+        } else if (orientation == "right" && stateController.isLeftInitially)
         {
             orientation = "left";
         }
