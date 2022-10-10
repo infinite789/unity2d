@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 217889061}
   - component: {fileID: 217889060}
   m_Layer: 0
-  m_Name: Player (1)
+  m_Name: CharacterLayer-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -409,10 +409,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 217889058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa94a70671a877d4a9ce8f8eb5ce9036, type: 3}
+  m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 1085744714}
+  parentController: {fileID: 0}
   anim:
     config:
     - animationClass: idle
@@ -442,17 +442,17 @@ MonoBehaviour:
       - subClass: 3
         numberOfLayers: 1
       isLeft: 1
-    renderer: {fileID: 217889062}
+    renderer: {fileID: 2078607901}
     spriteId: 0
     animationCounter: 0
-    layerId: 2
+    layerId: 1
     appendix: 
     relativeAnimationSpeed: 1
   hitTimer: 0
   hitDuration: 1
   isFiring: 0
   hasSword: 0
-  player: {fileID: 0}
+  player: {fileID: 1509987669}
   layerControllers: []
 --- !u!114 &217889061
 MonoBehaviour:
@@ -33832,17 +33832,6 @@ PolygonCollider2D:
       - {x: 7.904276, y: -2.392616}
       - {x: 7.993906, y: -1.7677473}
       - {x: 9.965277, y: -0.6391757}
---- !u!114 &1085744714 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2557551004087917154, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
-  m_PrefabInstance: {fileID: 1981409170}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f46e3d3e9f3d3b47b87ce40a9a3df0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1299353335
 GameObject:
   m_ObjectHideFlags: 0
@@ -34016,6 +34005,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1509987669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
+  m_PrefabInstance: {fileID: 1981409170}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1511204371
 GameObject:
   m_ObjectHideFlags: 0
@@ -42160,7 +42154,7 @@ GameObject:
   - component: {fileID: 1965185688}
   - component: {fileID: 1965185689}
   m_Layer: 0
-  m_Name: Sword
+  m_Name: CharacterLayer-Sword
   m_TagString: sword
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42262,10 +42256,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1965185684}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa94a70671a877d4a9ce8f8eb5ce9036, type: 3}
+  m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 1085744714}
+  parentController: {fileID: 0}
   anim:
     config:
     - animationClass: idle_sword
@@ -42295,7 +42289,7 @@ MonoBehaviour:
       - subClass: 3
         numberOfLayers: 1
       isLeft: 1
-    renderer: {fileID: 1965185687}
+    renderer: {fileID: 2078607901}
     spriteId: 0
     animationCounter: 0
     layerId: 1
@@ -42305,7 +42299,7 @@ MonoBehaviour:
   hitDuration: 1
   isFiring: 0
   hasSword: 0
-  player: {fileID: 0}
+  player: {fileID: 1509987669}
   layerControllers: []
 --- !u!114 &1965185689
 MonoBehaviour:
@@ -42374,7 +42368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_Name
-      value: CharacterController
+      value: Character
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_TagString
@@ -42529,7 +42523,7 @@ GameObject:
   - component: {fileID: 2078607900}
   - component: {fileID: 2078607899}
   m_Layer: 0
-  m_Name: Player
+  m_Name: CharacterLayer-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42559,10 +42553,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2078607897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa94a70671a877d4a9ce8f8eb5ce9036, type: 3}
+  m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 1085744714}
+  parentController: {fileID: 0}
   anim:
     config:
     - animationClass: idle
@@ -42602,7 +42596,7 @@ MonoBehaviour:
   hitDuration: 1
   isFiring: 0
   hasSword: 0
-  player: {fileID: 0}
+  player: {fileID: 1509987669}
   layerControllers: []
 --- !u!114 &2078607900
 MonoBehaviour:
