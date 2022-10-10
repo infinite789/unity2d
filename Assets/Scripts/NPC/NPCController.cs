@@ -8,16 +8,16 @@ public class NPCController : MonoBehaviour
     private GameObject glow;
     private GameObject menu;
     private GameObject player;
-    private PlayerController swordController;
-    private PlayerController[] layerControllers;
+    private CharacterLayerController swordController;
+    private CharacterLayerController[] layerControllers;
 
     private void Start()
     {
         glow = FindGameObject.InChildWithTag(gameObject, "glow");
         menu = FindGameObject.InChildWithTag(gameObject, "menu");
         player = GameObject.FindGameObjectWithTag("player");
-        swordController = FindGameObject.InChildWithTag(player, "sword").GetComponent<PlayerController>();
-        layerControllers = player.GetComponentsInChildren<PlayerController>();
+        swordController = FindGameObject.InChildWithTag(player, "sword").GetComponent<CharacterLayerController>();
+        layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         glow.SetActive(false);
         menu.SetActive(false);
         this.set();

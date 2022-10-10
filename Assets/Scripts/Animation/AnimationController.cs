@@ -29,14 +29,14 @@ public class AnimationController
 
     public float relativeAnimationSpeed = 1;
 
-    private ParentController parentController;
+    private CharacterController parentController;
 
-    private PlayerController playerController;
+    private CharacterLayerController playerController;
 
     public void CreateAnimations(GameObject gameObject)
     {
-        parentController = gameObject.GetComponentInParent<ParentController>();
-        playerController = gameObject.GetComponent<PlayerController>();
+        parentController = gameObject.GetComponentInParent<CharacterController>();
+        playerController = gameObject.GetComponent<CharacterLayerController>();
         animationSpeed = parentController.animationSpeed;
         foreach (AnimationConfig animConfig in config)
         {

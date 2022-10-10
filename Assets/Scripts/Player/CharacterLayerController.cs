@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class CharacterLayerController : MonoBehaviour
 {
-    public ParentController parentController;
+    public CharacterController parentController;
     public AnimationController anim = new();
     private Vector2 moveInput;
     public float hitTimer = 0f;
@@ -13,13 +13,13 @@ public class PlayerController : MonoBehaviour
     public bool isFiring = false;
     public bool hasSword = false;
     public GameObject player;
-    public PlayerController[] layerControllers;
+    public CharacterLayerController[] layerControllers;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
-        layerControllers = player.GetComponentsInChildren<PlayerController>();
+        layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
 
         anim.CreateAnimations(gameObject);
 

@@ -95,15 +95,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2349164645661691743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f46e3d3e9f3d3b47b87ce40a9a3df0a, type: 3}
+  m_Script: {fileID: 11500000, guid: d2e481b36e8cb6d4eb973c06f9beb083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   body:
     rbody: {fileID: 2268906940713382896}
-    speed: 2.5
+    speed: 3
     collisionOffset: 0.02
-  fps: 120
-  animationSpeed: 20
+  fps: 80
+  animationSpeed: 30
+  swordController: {fileID: 0}
 --- !u!70 &3256999439951425354
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

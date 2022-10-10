@@ -42374,7 +42374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_Name
-      value: Player Parent
+      value: CharacterController
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_TagString
