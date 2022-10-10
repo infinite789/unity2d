@@ -34163,6 +34163,7 @@ GameObject:
   - component: {fileID: 1528001492}
   - component: {fileID: 1528001491}
   - component: {fileID: 1528001490}
+  - component: {fileID: 1528001493}
   m_Layer: 5
   m_Name: Menu
   m_TagString: menu
@@ -34252,6 +34253,26 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_TargetDisplay: 0
+--- !u!95 &1528001493
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528001488}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cb1216a256b5b34e83cc453adea48c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1652122849
 GameObject:
   m_ObjectHideFlags: 0
