@@ -1,0 +1,106 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NPCController : MonoBehaviour
+{
+    public bool isEnabled = false;
+    private GameObject glow;
+    private GameObject menu;
+    private GameObject player;
+    private PlayerController swordController;
+    private PlayerController[] layerControllers;
+
+    private void Start()
+    {
+        glow = FindGameObject.InChildWithTag(gameObject, "glow");
+        menu = FindGameObject.InChildWithTag(gameObject, "menu");
+        player = GameObject.FindGameObjectWithTag("player");
+        swordController = FindGameObject.InChildWithTag(player, "sword").GetComponent<PlayerController>();
+        layerControllers = player.GetComponentsInChildren<PlayerController>();
+        glow.SetActive(false);
+        menu.SetActive(false);
+        this.set();
+
+    }
+    // Start is called before the first frame update
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(!isEnabled)
+        {
+            isEnabled = true;
+        }
+        this.set();
+
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        isEnabled = false;
+        this.set();
+
+    }
+    
+    public void OnInteract()
+    {
+        if(isEnabled && !swordController.hasSword)
+        {
+            Debug.Log("hello");
+            swordController.hasSword = true;
+            swordController.gameObject.SetActive(true);
+            for (int i = 0; i < layerControllers.Length; i++)
+            {
+                layerControllers[i].hasSword = true;
+                layerControllers[i].anim.animationCounter = 0;
+                layerControllers[i].anim.spriteId = 0;
+            }
+
+            string animationString = swordController.anim.getCurrentAnimationString();
+
+            if (animationString.Contains("up"))
+            {
+                swordController.SetZPos(-1f);
+
+            }
+            else 
+            {
+                swordController.SetZPos(0.5f);
+            }
+
+            swordController.flipXOnMove();
+        }
+    }
+
+    private void set()
+    {
+        if (isEnabled)
+        {
+            glow.SetActive(true);
+            menu.SetActive(true);
+        }
+        else
+        {
+            glow.SetActive(false);
+            menu.SetActive(false);
+        }
+    }
+  
+}
+
+public static class FindGameObject
+{
+    public static GameObject InChildWithTag(GameObject parent, string tag)
+    {
+        Transform t = parent.transform;
+
+        for (int i = 0; i < t.childCount; i++)
+        {
+            if (t.GetChild(i).gameObject.tag == tag)
+            {
+                return t.GetChild(i).gameObject;
+            }
+
+        }
+
+        return null;
+    }
+} 
