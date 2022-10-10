@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
+  parentController: {fileID: 1509987671}
   anim:
     config:
     - animationClass: idle
@@ -442,10 +442,10 @@ MonoBehaviour:
       - subClass: 3
         numberOfLayers: 1
       isLeft: 1
-    renderer: {fileID: 2078607901}
+    renderer: {fileID: 217889062}
     spriteId: 0
     animationCounter: 0
-    layerId: 1
+    layerId: 2
     appendix: 
     relativeAnimationSpeed: 1
   hitTimer: 0
@@ -34010,6 +34010,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
   m_PrefabInstance: {fileID: 1981409170}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1509987671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2557551004087917154, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
+  m_PrefabInstance: {fileID: 1981409170}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509987669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e481b36e8cb6d4eb973c06f9beb083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1511204371
 GameObject:
   m_ObjectHideFlags: 0
@@ -42259,7 +42270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
+  parentController: {fileID: 1509987671}
   anim:
     config:
     - animationClass: idle_sword
@@ -42289,7 +42300,7 @@ MonoBehaviour:
       - subClass: 3
         numberOfLayers: 1
       isLeft: 1
-    renderer: {fileID: 2078607901}
+    renderer: {fileID: 1965185687}
     spriteId: 0
     animationCounter: 0
     layerId: 1
@@ -42556,7 +42567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentController: {fileID: 0}
+  parentController: {fileID: 1509987671}
   anim:
     config:
     - animationClass: idle
