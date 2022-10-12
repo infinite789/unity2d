@@ -35,7 +35,8 @@ public class AnimationController
 
     public void CreateAnimations(GameObject gameObject)
     {
-        stateController = FindGameObject.InChildWithTag(gameObject.transform.parent.gameObject, "state").GetComponent<StateController>();
+        stateController = GameObject.FindObjectOfType<StateController>();
+
         parentController = gameObject.GetComponentInParent<CharacterController>();
         playerController = gameObject.GetComponent<CharacterLayerController>();
         animationSpeed = parentController.animationSpeed;
@@ -55,16 +56,17 @@ public class AnimationController
                     {
                         int endpoint = startpoint + frames;
                         string key = animConfig.animationClass + "_" + animConfig.subClasses[i].subClass.ToString();
-                        Debug.Log("Layer ID: " + layerId);
-                        Debug.Log("key: " + key);
-                        Debug.Log(startpoint + "   :   " + endpoint);
-                        Debug.Log("number of layers: " + numberOfLayers);
-                        this.animations.Add(key, sprites[startpoint..endpoint]);
+                        //Debug.Log("Layer ID: " + layerId);
+                        //Debug.Log("key: " + key);
+                        //Debug.Log(startpoint + "   :   " + endpoint);
+                        //Debug.Log("number of layers: " + numberOfLayers);
+                        //this.animations.Add(key, sprites[startpoint..endpoint]);
                         startpoint = startpoint + frames * numberOfLayers;
 
                     } 
                 }
             }
+            //Debug.Log(animConfig.animationClass);
             framesPerSubclass[animConfig.animationClass] = frames;
         }
     }
@@ -128,9 +130,13 @@ public class AnimationController
             str = "run";
         }
 
-        if (playerController.isFiring)
+        if (playerController)
         {
-            str = "hit";
+
+            if (playerController.isFiring)
+            {
+                str = "hit";
+            }
         }
 
         if (appendix != "")

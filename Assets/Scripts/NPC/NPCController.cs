@@ -44,7 +44,6 @@ public class NPCController : MonoBehaviour
     {
         if(isEnabled && !swordController.hasSword)
         {
-            Debug.Log("hello");
             swordController.hasSword = true;
             swordController.gameObject.SetActive(true);
             for (int i = 0; i < layerControllers.Length; i++)
