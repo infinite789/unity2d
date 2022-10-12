@@ -13,6 +13,7 @@ public class CharacterLayerController : MonoBehaviour
     public bool isFiring = false;
     public bool hasSword = false;
     public GameObject player;
+    private CharacterLayerController playerController;
     public CharacterLayerController[] layerControllers;
     private StateController stateController;
 
@@ -20,11 +21,12 @@ public class CharacterLayerController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
+        playerController = player.GetComponent<CharacterLayerController>();
         layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         stateController = GameObject.FindObjectOfType<StateController>();
         anim.CreateAnimations(gameObject);
 
-        if (stateController.getOrientation(Vector2.zero) == Orientation.right)
+        if (stateController.getOrientation() == Orientation.right)
         {
             anim.renderer.flipX = true;
         } else
@@ -45,20 +47,21 @@ public class CharacterLayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(anim.config[0].animationClass);
+
+        //Debug.Log(anim.config[0].animationClass);
         anim.UpdateAnimation(moveInput);
 
         if(isFiring && hitTimer > 0)
         {
             hitTimer -= Time.fixedDeltaTime;
         }
-        Debug.Log(hitTimer);
+        //Debug.Log(hitTimer);
 
         if(isFiring && hitTimer <= 0)
         {
             isFiring = false;
 
-            string animationString = anim.getCurrentAnimationString();
+            string animationString = stateController.getCurrentAnimationString();
             if (animationString.Contains("sword") && !animationString.Contains("up"))
             {
                 SetZPos(-0f);
@@ -86,7 +89,7 @@ public class CharacterLayerController : MonoBehaviour
                 }
             }
 
-            string animationString = anim.getCurrentAnimationString();
+            string animationString = stateController.getCurrentAnimationString();
 
             if (animationString.Equals("hit_sword_up"))
             {
@@ -106,7 +109,7 @@ public class CharacterLayerController : MonoBehaviour
         moveInput = input.Get<Vector2>();
         flipXOnMove();
 
-        string animationString = anim.getCurrentAnimationString();
+        string animationString = stateController.getCurrentAnimationString();
         if (animationString.Contains("sword_up"))
         {
             SetZPos(-0.6f);
@@ -125,7 +128,7 @@ public class CharacterLayerController : MonoBehaviour
         // SET LEFT/RIGHT ORIENTATION DEPENDING ON INITIAL SIDE ORIENTATION
         if (stateController.isLeftInitially)
         {
-            if (stateController.getOrientation(moveInput) == Orientation.left)
+            if (stateController.getOrientation() == Orientation.left)
             {
                 anim.renderer.flipX = false;
             }
@@ -136,7 +139,7 @@ public class CharacterLayerController : MonoBehaviour
         }
         else
         {
-            if (stateController.getOrientation(moveInput) == Orientation.left)
+            if (stateController.getOrientation() == Orientation.left)
             {
                 anim.renderer.flipX = true;
             }
@@ -146,7 +149,7 @@ public class CharacterLayerController : MonoBehaviour
             }
         }
 
-        if (stateController.getOrientation(moveInput) == Orientation.up || stateController.getOrientation(moveInput) == Orientation.down)
+        if (stateController.getOrientation() == Orientation.up || stateController.getOrientation() == Orientation.down)
         {
             anim.renderer.flipX = false;
         }

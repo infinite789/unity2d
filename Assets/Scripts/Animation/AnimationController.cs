@@ -21,7 +21,7 @@ public class AnimationController
 
     private StateController stateController;
 
-    private Vector2 direction;
+    public Vector2 direction;
 
     public int layerId;
 
@@ -29,17 +29,16 @@ public class AnimationController
 
     public float relativeAnimationSpeed = 1;
 
-    private CharacterController parentController;
-
     private CharacterLayerController playerController;
+
+    public string currentAnimation;
 
     public void CreateAnimations(GameObject gameObject)
     {
         stateController = GameObject.FindObjectOfType<StateController>();
 
-        parentController = gameObject.GetComponentInParent<CharacterController>();
         playerController = gameObject.GetComponent<CharacterLayerController>();
-        animationSpeed = parentController.animationSpeed;
+        animationSpeed = stateController.animationSpeed;
         foreach (AnimationConfig animConfig in config)
         {
             var sprites = Resources.LoadAll<Sprite>("Sprites/Player/" + animConfig.animationClass);
@@ -68,84 +67,44 @@ public class AnimationController
             }
             //Debug.Log(animConfig.animationClass);
             framesPerSubclass[animConfig.animationClass] = frames;
+
         }
     }
 
     public void UpdateAnimation(Vector2 direction)
     {
-
-        this.direction = direction;
-        spriteId = (int)animationCounter % framesPerSubclass[getCurrentClass()];
-        //Debug.Log("spriteId: " + spriteId);
-
-        if (animations.ContainsKey(getCurrentAnimationString()))
+        if(currentAnimation != null)
         {
 
-            renderer.sprite = getCurrentAnimation()[spriteId];
-        } else
-        {
-            renderer.sprite = null;
-        }
-        animationCounter = (animationCounter + animationSpeed * Time.fixedDeltaTime * relativeAnimationSpeed);
-        //Debug.Log( "animationCntr: " + animationCounter);
+            this.currentAnimation = stateController.getCurrentClass();
+            this.direction = direction;
+            spriteId = (int)animationCounter % framesPerSubclass[currentAnimation];
+            //Debug.Log("spriteId: " + spriteId);
 
-        if(getCurrentClass() == "idle_sword")
-        {
-            //Debug.Log(getCurrentAnimationString());
+            if (animations.ContainsKey(stateController.getCurrentAnimationString()))
+            {
+
+                renderer.sprite = getCurrentAnimation()[spriteId];
+            }
+            else
+            {
+                renderer.sprite = null;
+            }
+            animationCounter = (animationCounter + animationSpeed * Time.fixedDeltaTime * relativeAnimationSpeed);
+            //Debug.Log( "animationCntr: " + animationCounter);
+
+            if (stateController.getCurrentClass() == "idle_sword")
+            {
+                //Debug.Log(getCurrentAnimationString());
+            }
         }
     }
 
    
     private Sprite[] getCurrentAnimation()
     {
-        return animations[getCurrentAnimationString()];
+        return animations[stateController.getCurrentAnimationString()];
     }
 
-    public string getCurrentAnimationString()
-    {
-
-        string orientation = stateController.getOrientation(direction).ToString();
-        if (orientation == "left" && !stateController.isLeftInitially)
-        {
-            orientation = "right";
-        } else if (orientation == "right" && stateController.isLeftInitially)
-        {
-            orientation = "left";
-        }
-       
-        return getCurrentClass() + "_" + orientation;
-    }
-
-    public string getCurrentClass()
-    {
-        string str = "";
-
-        if (direction.x == 0 && direction.y == 0)
-        {
-            str = "idle";
-        }
-
-        else
-        {
-            str = "run";
-        }
-
-        if (playerController)
-        {
-
-            if (playerController.isFiring)
-            {
-                str = "hit";
-            }
-        }
-
-        if (appendix != "")
-        {
-            return str + "_" + appendix;
-        } else
-        {
-            return str;
-        }
-    }
 
 }

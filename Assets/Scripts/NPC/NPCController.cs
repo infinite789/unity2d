@@ -8,6 +8,7 @@ public class NPCController : MonoBehaviour
     private GameObject glow;
     private GameObject menu;
     private GameObject player;
+    private GameObject weapon;
     private CharacterLayerController swordController;
     private CharacterLayerController[] layerControllers;
 
@@ -16,7 +17,8 @@ public class NPCController : MonoBehaviour
         glow = FindGameObject.InChildWithTag(gameObject, "glow");
         menu = FindGameObject.InChildWithTag(gameObject, "menu");
         player = GameObject.FindGameObjectWithTag("player");
-        swordController = FindGameObject.InChildWithTag(player, "sword").GetComponent<CharacterLayerController>();
+        weapon = FindGameObject.InChildWithTag(player, "weapon");
+        swordController = FindGameObject.InChildWithTag(weapon, "sword").GetComponent<CharacterLayerController>();
         layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         glow.SetActive(false);
         menu.SetActive(false);
@@ -53,7 +55,7 @@ public class NPCController : MonoBehaviour
                 layerControllers[i].anim.spriteId = 0;
             }
 
-            string animationString = swordController.anim.getCurrentAnimationString();
+            string animationString = swordController.anim.currentAnimation;
 
             if (animationString.Contains("up"))
             {

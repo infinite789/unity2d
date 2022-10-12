@@ -7,7 +7,6 @@ public class CharacterController : MonoBehaviour
 {
     public BodyController body = new();
     public float fps;
-    public float animationSpeed;
     private Vector2 moveInput;
     public CharacterLayerController swordController;
         

@@ -9,6 +9,8 @@ public class StateController : MonoBehaviour
     public Orientation currentOrientation;
     public bool isLeftInitially = true;
     private Vector2 moveInput;
+    public float animationSpeed;
+    public bool isFiring = false;
 
     public void Start()
     {
@@ -17,7 +19,7 @@ public class StateController : MonoBehaviour
     }
 
 
-    public Orientation getOrientation(Vector2 moveInput)
+    public Orientation getOrientation()
     {
         Orientation last;
 
@@ -50,6 +52,51 @@ public class StateController : MonoBehaviour
     private void OnMove(InputValue input)
     {
         moveInput = input.Get<Vector2>();
+    }
+
+    public string getCurrentAnimationString()
+    {
+
+        string orientation = getOrientation().ToString();
+        if (orientation == "left" && !isLeftInitially)
+        {
+            orientation = "right";
+        } else if (orientation == "right" && isLeftInitially)
+        {
+            orientation = "left";
+        }
+       
+        return getCurrentClass() + "_" + orientation;
+    }
+
+    public string getCurrentClass()
+    {
+        string str = "";
+
+        if (moveInput.x == 0 && moveInput.y == 0)
+        {
+            str = "idle";
+        }
+
+        else
+        {
+            str = "run";
+        }
+
+
+        if (isFiring)
+        {
+            str = "hit";
+        }
+
+        return str;
+        //if (playerController.anim.appendix != "")
+        //{
+        //    return str + "_" + playerController.anim.appendix;
+        //} else
+        //{
+        //    return str;
+        //}
     }
 
 }

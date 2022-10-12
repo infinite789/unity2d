@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2268906940713382896}
   - component: {fileID: 2855201721034277625}
   - component: {fileID: 2557551004087917154}
-  - component: {fileID: 3256999439951425354}
+  - component: {fileID: 465431444505422587}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -103,9 +103,8 @@ MonoBehaviour:
     speed: 3
     collisionOffset: 0.02
   fps: 80
-  animationSpeed: 30
   swordController: {fileID: 0}
---- !u!70 &3256999439951425354
+--- !u!70 &465431444505422587
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,6 +117,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.067667, y: 1.4668149}
-  m_Size: {x: 2.4343083, y: 3.9336295}
+  m_Offset: {x: -0.012418884, y: 0.4154982}
+  m_Size: {x: 0.8847162, y: 0.9462507}
   m_Direction: 0

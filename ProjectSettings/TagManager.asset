@@ -14,6 +14,8 @@ TagManager:
   - sword
   - menu
   - state
+  - weapon
+  - character
   layers:
   - Default
   - TransparentFX
