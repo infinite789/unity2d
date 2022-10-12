@@ -75,15 +75,15 @@ public class AnimationController
     {
         if(currentAnimation != null)
         {
-
-            this.currentAnimation = stateController.getCurrentClass();
+            string currentClass = stateController.getCurrentClass();
+            this.currentAnimation = appendix == "" ? currentClass : currentClass + "_" + appendix;
             this.direction = direction;
             spriteId = (int)animationCounter % framesPerSubclass[currentAnimation];
             //Debug.Log("spriteId: " + spriteId);
 
             if (animations.ContainsKey(stateController.getCurrentAnimationString()))
             {
-
+                Debug.Log(stateController.getCurrentAnimationString());
                 renderer.sprite = getCurrentAnimation()[spriteId];
             }
             else
@@ -91,12 +91,7 @@ public class AnimationController
                 renderer.sprite = null;
             }
             animationCounter = (animationCounter + animationSpeed * Time.fixedDeltaTime * relativeAnimationSpeed);
-            //Debug.Log( "animationCntr: " + animationCounter);
-
-            if (stateController.getCurrentClass() == "idle_sword")
-            {
-                //Debug.Log(getCurrentAnimationString());
-            }
+          
         }
     }
 

@@ -12,6 +12,7 @@ public class StateController : MonoBehaviour
     public float animationSpeed;
     public bool isFiring = false;
 
+
     public void Start()
     {
         int id = Random.Range(1, 5);
@@ -90,13 +91,7 @@ public class StateController : MonoBehaviour
         }
 
         return str;
-        //if (playerController.anim.appendix != "")
-        //{
-        //    return str + "_" + playerController.anim.appendix;
-        //} else
-        //{
-        //    return str;
-        //}
+      
     }
 
 }
