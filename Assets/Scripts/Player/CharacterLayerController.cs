@@ -14,16 +14,17 @@ public class CharacterLayerController : MonoBehaviour
     public bool hasSword = false;
     public GameObject player;
     public CharacterLayerController[] layerControllers;
+    private StateController stateController;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
         layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
-
+        stateController = GameObject.FindObjectOfType<StateController>();
         anim.CreateAnimations(gameObject);
 
-        if (parentController.state.getOrientation(Vector2.zero) == Orientation.right)
+        if (stateController.getOrientation(Vector2.zero) == Orientation.right)
         {
             anim.renderer.flipX = true;
         } else
@@ -44,14 +45,14 @@ public class CharacterLayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //Debug.Log(anim.config[0].animationClass);
+        Debug.Log(anim.config[0].animationClass);
         anim.UpdateAnimation(moveInput);
 
         if(isFiring && hitTimer > 0)
         {
             hitTimer -= Time.fixedDeltaTime;
         }
-        //Debug.Log(hitTimer);
+        Debug.Log(hitTimer);
 
         if(isFiring && hitTimer <= 0)
         {
@@ -122,9 +123,9 @@ public class CharacterLayerController : MonoBehaviour
     {
 
         // SET LEFT/RIGHT ORIENTATION DEPENDING ON INITIAL SIDE ORIENTATION
-        if (parentController.state.isLeftInitially)
+        if (stateController.isLeftInitially)
         {
-            if (parentController.state.getOrientation(moveInput) == Orientation.left)
+            if (stateController.getOrientation(moveInput) == Orientation.left)
             {
                 anim.renderer.flipX = false;
             }
@@ -135,7 +136,7 @@ public class CharacterLayerController : MonoBehaviour
         }
         else
         {
-            if (parentController.state.getOrientation(moveInput) == Orientation.left)
+            if (stateController.getOrientation(moveInput) == Orientation.left)
             {
                 anim.renderer.flipX = true;
             }
@@ -145,7 +146,7 @@ public class CharacterLayerController : MonoBehaviour
             }
         }
 
-        if (parentController.state.getOrientation(moveInput) == Orientation.up || parentController.state.getOrientation(moveInput) == Orientation.down)
+        if (stateController.getOrientation(moveInput) == Orientation.up || stateController.getOrientation(moveInput) == Orientation.down)
         {
             anim.renderer.flipX = false;
         }

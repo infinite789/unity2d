@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class CharacterController : MonoBehaviour
 {
-    public StateController state;
     public BodyController body = new();
     public float fps;
     public float animationSpeed;
@@ -15,7 +14,6 @@ public class CharacterController : MonoBehaviour
 
     void Awake()
     {
-        state = new();
         Time.fixedDeltaTime = 1 / fps;
         swordController = GameObject.FindGameObjectWithTag("sword").GetComponent<CharacterLayerController>();
 

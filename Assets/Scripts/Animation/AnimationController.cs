@@ -56,11 +56,11 @@ public class AnimationController
                     {
                         int endpoint = startpoint + frames;
                         string key = animConfig.animationClass + "_" + animConfig.subClasses[i].subClass.ToString();
-                        //Debug.Log("Layer ID: " + layerId);
-                        //Debug.Log("key: " + key);
-                        //Debug.Log(startpoint + "   :   " + endpoint);
-                        //Debug.Log("number of layers: " + numberOfLayers);
-                        //this.animations.Add(key, sprites[startpoint..endpoint]);
+                        Debug.Log("Layer ID: " + layerId);
+                        Debug.Log("key: " + key);
+                        Debug.Log(startpoint + "   :   " + endpoint);
+                        Debug.Log("number of layers: " + numberOfLayers);
+                        this.animations.Add(key, sprites[startpoint..endpoint]);
                         startpoint = startpoint + frames * numberOfLayers;
 
                     } 
