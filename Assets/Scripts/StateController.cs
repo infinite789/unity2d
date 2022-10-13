@@ -10,8 +10,8 @@ public class StateController : MonoBehaviour
     public bool isLeftInitially = true;
     private Vector2 moveInput;
     public float animationSpeed;
-    public bool isFiring = false;
-
+    public bool isFiring;
+    public bool hasSword;
 
     public void Start()
     {
@@ -55,20 +55,20 @@ public class StateController : MonoBehaviour
         moveInput = input.Get<Vector2>();
     }
 
-    public string getCurrentAnimationString()
+    public string getCurrentOrientationString()
     {
-
-        string orientation = getOrientation().ToString();
-        if (orientation == "left" && !isLeftInitially)
+        string orientation = currentOrientation.ToString();
+        if (currentOrientation == Orientation.left && !isLeftInitially)
         {
             orientation = "right";
-        } else if (orientation == "right" && isLeftInitially)
+        }
+        else if (currentOrientation == Orientation.right && isLeftInitially)
         {
             orientation = "left";
         }
-       
-        return getCurrentClass() + "_" + orientation;
+        return orientation;
     }
+
 
     public string getCurrentClass()
     {
@@ -89,6 +89,8 @@ public class StateController : MonoBehaviour
         {
             str = "hit";
         }
+
+        //Debug.Log(str);
 
         return str;
       

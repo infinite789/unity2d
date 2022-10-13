@@ -451,8 +451,7 @@ MonoBehaviour:
     relativeAnimationSpeed: 1
     currentAnimation: 
   hitTimer: 0
-  hitDuration: 1
-  isFiring: 0
+  hitDuration: 15
   hasSword: 0
   player: {fileID: 1509987669}
   layerControllers: []
@@ -34374,6 +34373,7 @@ MonoBehaviour:
   isLeftInitially: 1
   animationSpeed: 30
   isFiring: 0
+  hasSword: 0
 --- !u!114 &1545181823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42456,8 +42456,7 @@ MonoBehaviour:
     relativeAnimationSpeed: 1
     currentAnimation: 
   hitTimer: 0
-  hitDuration: 1
-  isFiring: 0
+  hitDuration: 15
   hasSword: 0
   player: {fileID: 1509987669}
   layerControllers: []
@@ -42550,6 +42549,10 @@ PrefabInstance:
       propertyPath: body.speed
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2557551004087917154, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
+      propertyPath: stateController
+      value: 
+      objectReference: {fileID: 1545181822}
     - target: {fileID: 3256999439951425354, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_Size.x
       value: 0.8847162
@@ -42767,8 +42770,7 @@ MonoBehaviour:
     relativeAnimationSpeed: 1
     currentAnimation: 
   hitTimer: 0
-  hitDuration: 1
-  isFiring: 0
+  hitDuration: 15
   hasSword: 0
   player: {fileID: 1509987669}
   layerControllers: []

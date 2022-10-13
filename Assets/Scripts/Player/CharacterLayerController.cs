@@ -10,7 +10,6 @@ public class CharacterLayerController : MonoBehaviour
     private Vector2 moveInput;
     public float hitTimer = 0f;
     public float hitDuration = 1f;
-    public bool isFiring = false;
     public bool hasSword = false;
     public GameObject player;
     private CharacterLayerController playerController;
@@ -47,21 +46,22 @@ public class CharacterLayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
+        //Debug.Log(hitTimer);
+        //Debug.Log(stateController.isFiring);
         //Debug.Log(anim.config[0].animationClass);
         anim.UpdateAnimation(moveInput);
 
-        if(isFiring && hitTimer > 0)
+        if(stateController.isFiring && hitTimer > 0)
         {
             hitTimer -= Time.fixedDeltaTime;
         }
         //Debug.Log(hitTimer);
 
-        if(isFiring && hitTimer <= 0)
+        if(stateController.isFiring && hitTimer <= 0)
         {
-            isFiring = false;
-
-            string animationString = stateController.getCurrentAnimationString();
+            stateController.isFiring = false;
+            Debug.Log("hello my friend");
+            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
             if (animationString.Contains("sword") && !animationString.Contains("up"))
             {
                 SetZPos(-0f);
@@ -77,10 +77,11 @@ public class CharacterLayerController : MonoBehaviour
     {
         if(hasSword)
         {
-            if (!isFiring && moveInput == Vector2.zero)
+            if (!stateController.isFiring && moveInput == Vector2.zero)
             {
+                Debug.Log("hii");
                 hitTimer = hitDuration;
-                isFiring = true;
+                stateController.isFiring = true;
 
                 for (int i = 0; i < layerControllers.Length; i++)
                 {
@@ -89,8 +90,7 @@ public class CharacterLayerController : MonoBehaviour
                 }
             }
 
-            string animationString = stateController.getCurrentAnimationString();
-
+            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
             if (animationString.Equals("hit_sword_up"))
             {
                 SetZPos(-1f);
@@ -109,7 +109,7 @@ public class CharacterLayerController : MonoBehaviour
         moveInput = input.Get<Vector2>();
         flipXOnMove();
 
-        string animationString = stateController.getCurrentAnimationString();
+        string animationString = anim.currentAnimation + "_" + stateController.getCurrentOrientationString();
         if (animationString.Contains("sword_up"))
         {
             SetZPos(-0.6f);

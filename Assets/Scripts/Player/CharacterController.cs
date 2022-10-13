@@ -8,19 +8,19 @@ public class CharacterController : MonoBehaviour
     public BodyController body = new();
     public float fps;
     private Vector2 moveInput;
-    public CharacterLayerController swordController;
+    public StateController stateController;
         
 
     void Awake()
     {
-        Time.fixedDeltaTime = 1 / fps;
-        swordController = GameObject.FindGameObjectWithTag("sword").GetComponent<CharacterLayerController>();
 
+        Time.fixedDeltaTime = 1 / fps;
+        stateController = GameObject.FindObjectOfType<StateController>();
     }
 
     void FixedUpdate()
     {
-        if(!swordController.isFiring)
+        if(!stateController.isFiring)
         {
             body.BodyMovement(moveInput);
         }

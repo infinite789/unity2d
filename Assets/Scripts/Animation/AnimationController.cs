@@ -75,15 +75,20 @@ public class AnimationController
     {
         if(currentAnimation != null)
         {
+            string currentOrientation = stateController.getCurrentOrientationString();
             string currentClass = stateController.getCurrentClass();
-            this.currentAnimation = appendix == "" ? currentClass : currentClass + "_" + appendix;
+            //Debug.Log(currentClass);
+            this.currentAnimation = appendix == "" ? currentClass : (currentClass + "_" + appendix);
+            string animationString = currentAnimation + "_" + currentOrientation;
+
+
             this.direction = direction;
             spriteId = (int)animationCounter % framesPerSubclass[currentAnimation];
             //Debug.Log("spriteId: " + spriteId);
 
-            if (animations.ContainsKey(stateController.getCurrentAnimationString()))
+            if (animations.ContainsKey(animationString))
             {
-                Debug.Log(stateController.getCurrentAnimationString());
+                //Debug.Log(stateController.getCurrentAnimationString());
                 renderer.sprite = getCurrentAnimation()[spriteId];
             }
             else
@@ -98,7 +103,8 @@ public class AnimationController
    
     private Sprite[] getCurrentAnimation()
     {
-        return animations[stateController.getCurrentAnimationString()];
+        string animationString = currentAnimation + "_" + stateController.getCurrentOrientationString();
+        return animations[animationString];
     }
 
 

@@ -44,6 +44,7 @@ public class NPCController : MonoBehaviour
     
     public void OnInteract()
     {
+
         if(isEnabled && !swordController.hasSword)
         {
             swordController.hasSword = true;
