@@ -20,7 +20,6 @@ public class WeaponController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("player");
         playerController = player.GetComponent<CharacterLayerController>();
         parentController = FindGameObject.InChildWithTag(player, "character").GetComponent<CharacterController>();
-        layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         stateController = GameObject.FindObjectOfType<StateController>();
         anim.CreateAnimations(gameObject);
 
@@ -72,22 +71,29 @@ public class WeaponController : MonoBehaviour
             {
                 stateController.hitTimer = stateController.hitDuration;
                 stateController.isFiring = true;
+                Debug.Log("before syncing");
 
                 for (int i = 0; i < layerControllers.Length; i++)
                 {
+                    Debug.Log("syncing");
                     layerControllers[i].anim.animationCounter = 0;
                     layerControllers[i].anim.spriteId = 0;
+
+                
                 }
+                anim.animationCounter = 0;
+                anim.spriteId = 0;
             }
             Debug.Log(animationString);
             if (animationString.Contains("up"))
             {
                 SetZPos(-1f);
 
+
             }
             else
             {
-                SetZPos(-0.5f);
+                SetZPos(-0.15f);
             }
 
 
@@ -142,6 +148,7 @@ public class WeaponController : MonoBehaviour
             anim.renderer.flipX = false;
         }
     }
+
 
     public void SetZPos(float zPos)
     {

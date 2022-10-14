@@ -11,7 +11,7 @@ public class NPCController : MonoBehaviour
     private GameObject weapon;
     private StateController stateController;
     private WeaponController weaponController;
-    private CharacterLayerController[] layerControllers;
+    public CharacterLayerController[] layerControllers;
 
     private void Start()
     {
@@ -20,7 +20,6 @@ public class NPCController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("player");
         weaponController = FindGameObject.InChildWithTag(player, "weapon").GetComponent<WeaponController>();
         stateController = player.GetComponentInChildren<StateController>();
-        layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         glow.SetActive(false);
         menu.SetActive(false);
         this.set();
@@ -49,14 +48,21 @@ public class NPCController : MonoBehaviour
 
         if(isEnabled && !stateController.hasSword)
         {
+            Debug.Log("before syncing");
+
             stateController.hasSword = true;
             weaponController.gameObject.SetActive(true);
             for (int i = 0; i < layerControllers.Length; i++)
             {
+                Debug.Log("syncing");
+
                 layerControllers[i].anim.animationCounter = 0;
                 layerControllers[i].anim.spriteId = 0;
+
             }
 
+            weaponController.anim.animationCounter = 0;
+            weaponController.anim.spriteId = 0;
             string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
             //Debug.Log(animationString);
             if (animationString.Contains("up"))

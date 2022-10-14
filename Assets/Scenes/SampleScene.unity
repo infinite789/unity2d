@@ -451,7 +451,9 @@ MonoBehaviour:
     relativeAnimationSpeed: 1
     currentAnimation: 
   player: {fileID: 1509987669}
-  layerControllers: []
+  layerControllers:
+  - {fileID: 2078607899}
+  - {fileID: 217889060}
 --- !u!114 &217889061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,8 +755,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1545181821}
-  - {fileID: 1466558614}
   - {fileID: 962909544}
+  - {fileID: 1466558614}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -836,7 +838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5500002, y: -2.3999999, z: -8}
+  m_LocalPosition: {x: -1.5500002, y: -2.3999999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33604,7 +33606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989003990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5500002, y: -2.3999999, z: -8}
+  m_LocalPosition: {x: -1.5500002, y: -2.3999999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -34069,7 +34071,7 @@ Transform:
   m_Children:
   - {fileID: 1965185685}
   m_Father: {fileID: 516548494}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1466558615
 MonoBehaviour:
@@ -34121,7 +34123,9 @@ MonoBehaviour:
     relativeAnimationSpeed: 1
     currentAnimation: 
   player: {fileID: 1509987669}
-  layerControllers: []
+  layerControllers:
+  - {fileID: 2078607899}
+  - {fileID: 217889060}
   animationString: 
 --- !u!114 &1466558616
 MonoBehaviour:
@@ -42526,7 +42530,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2349164645661691741, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691741, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42538,7 +42542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691741, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2349164645661691741, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
       propertyPath: m_LocalRotation.x
@@ -42650,6 +42654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnabled: 0
+  layerControllers: []
 --- !u!58 &2027687715
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -42797,7 +42802,9 @@ MonoBehaviour:
     relativeAnimationSpeed: 1
     currentAnimation: 
   player: {fileID: 1509987669}
-  layerControllers: []
+  layerControllers:
+  - {fileID: 2078607899}
+  - {fileID: 217889060}
 --- !u!114 &2078607900
 MonoBehaviour:
   m_ObjectHideFlags: 0
