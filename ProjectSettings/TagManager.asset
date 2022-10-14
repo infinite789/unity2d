@@ -13,6 +13,10 @@ TagManager:
   - glow
   - sword
   - menu
+  - state
+  - weapon
+  - character
+  - weapon-layer
   layers:
   - Default
   - TransparentFX

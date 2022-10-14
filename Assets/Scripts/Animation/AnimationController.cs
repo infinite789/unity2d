@@ -19,9 +19,9 @@ public class AnimationController
 
     public float animationCounter = 0f;
 
-    private StateController state;
+    private StateController stateController;
 
-    private Vector2 direction;
+    public Vector2 direction;
 
     public int layerId;
 
@@ -29,15 +29,13 @@ public class AnimationController
 
     public float relativeAnimationSpeed = 1;
 
-    private ParentController parentController;
-
-    private PlayerController playerController;
+    public string currentAnimation;
 
     public void CreateAnimations(GameObject gameObject)
     {
-        parentController = gameObject.GetComponentInParent<ParentController>();
-        playerController = gameObject.GetComponent<PlayerController>();
-        animationSpeed = parentController.animationSpeed;
+        stateController = GameObject.FindObjectOfType<StateController>();
+
+        animationSpeed = stateController.animationSpeed;
         foreach (AnimationConfig animConfig in config)
         {
             var sprites = Resources.LoadAll<Sprite>("Sprites/Player/" + animConfig.animationClass);
@@ -54,91 +52,55 @@ public class AnimationController
                     {
                         int endpoint = startpoint + frames;
                         string key = animConfig.animationClass + "_" + animConfig.subClasses[i].subClass.ToString();
-                        //Debug.Log("Layer ID: " + layerId);
-                        //Debug.Log("key: " + key);
-                        //Debug.Log(startpoint + "   :   " + endpoint);
-                        //Debug.Log("number of layers: " + numberOfLayers);
+                        Debug.Log("Layer ID: " + layerId);
+                        Debug.Log("key: " + key);
+                        Debug.Log(startpoint + "   :   " + endpoint);
+                        Debug.Log("number of layers: " + numberOfLayers);
                         this.animations.Add(key, sprites[startpoint..endpoint]);
                         startpoint = startpoint + frames * numberOfLayers;
 
                     } 
                 }
             }
+            //Debug.Log(animConfig.animationClass);
             framesPerSubclass[animConfig.animationClass] = frames;
+
         }
     }
 
     public void UpdateAnimation(Vector2 direction)
     {
-
-        this.direction = direction;
-        spriteId = (int)animationCounter % framesPerSubclass[getCurrentClass()];
-        //Debug.Log("spriteId: " + spriteId);
-
-        if (animations.ContainsKey(getCurrentAnimationString()))
+        if(currentAnimation != null)
         {
+            string currentOrientation = stateController.getCurrentOrientationString();
+            string currentClass = stateController.getCurrentClass();
+            //Debug.Log(currentClass);
+            this.currentAnimation = appendix == "" ? currentClass : (currentClass + "_" + appendix);
+            string animationString = currentAnimation + "_" + currentOrientation;
 
-            renderer.sprite = getCurrentAnimation()[spriteId];
-        } else
-        {
-            renderer.sprite = null;
-        }
-        animationCounter = (animationCounter + animationSpeed * Time.fixedDeltaTime * relativeAnimationSpeed);
-        //Debug.Log( "animationCntr: " + animationCounter);
 
-        if(getCurrentClass() == "idle_sword")
-        {
-            //Debug.Log(getCurrentAnimationString());
+            this.direction = direction;
+            spriteId = (int)animationCounter % framesPerSubclass[currentAnimation];
+            //Debug.Log("spriteId: " + spriteId);
+
+            if (animations.ContainsKey(animationString))
+            {
+                //Debug.Log(stateController.getCurrentAnimationString());
+                renderer.sprite = getCurrentAnimation()[spriteId];
+            }
+            else
+            {
+                renderer.sprite = null;
+            }
+            animationCounter = (animationCounter + animationSpeed * Time.fixedDeltaTime * relativeAnimationSpeed);
+          
         }
     }
 
    
     private Sprite[] getCurrentAnimation()
     {
-        return animations[getCurrentAnimationString()];
+        string animationString = currentAnimation + "_" + stateController.getCurrentOrientationString();
+        return animations[animationString];
     }
-
-    public string getCurrentAnimationString()
-    {
-
-        string orientation = parentController.state.getOrientation(direction).ToString();
-        if (orientation == "left" && !parentController.state.isLeftInitially)
-        {
-            orientation = "right";
-        } else if (orientation == "right" && parentController.state.isLeftInitially)
-        {
-            orientation = "left";
-        }
-       
-        return getCurrentClass() + "_" + orientation;
-    }
-
-    public string getCurrentClass()
-    {
-        string str = "";
-
-        if (direction.x == 0 && direction.y == 0)
-        {
-            str = "idle";
-        }
-
-        else
-        {
-            str = "run";
-        }
-
-        if (playerController.isFiring)
-        {
-            str = "hit";
-        }
-
-        if (appendix != "")
-        {
-            return str + "_" + appendix;
-        } else
-        {
-            return str;
-        }
-    }
-
 }

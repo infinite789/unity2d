@@ -12,7 +12,7 @@ public class ObstacleController : MonoBehaviour
     void Start()
     {
         renderer.sortingOrder = (int)(transform.position.y * -10);
-        Debug.Log("sortingOrder: " + renderer.sortingOrder);
+        //Debug.Log("sortingOrder: " + renderer.sortingOrder);
 
         //BoundsInt bounds = tilemap.cellBounds;
         //TileBase[] allTiles = tilemap.GetTilesBlock(bounds);

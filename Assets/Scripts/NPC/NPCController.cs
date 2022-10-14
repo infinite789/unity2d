@@ -8,16 +8,18 @@ public class NPCController : MonoBehaviour
     private GameObject glow;
     private GameObject menu;
     private GameObject player;
-    private PlayerController swordController;
-    private PlayerController[] layerControllers;
+    private GameObject weapon;
+    private StateController stateController;
+    private WeaponController weaponController;
+    public CharacterLayerController[] layerControllers;
 
     private void Start()
     {
         glow = FindGameObject.InChildWithTag(gameObject, "glow");
         menu = FindGameObject.InChildWithTag(gameObject, "menu");
         player = GameObject.FindGameObjectWithTag("player");
-        swordController = FindGameObject.InChildWithTag(player, "sword").GetComponent<PlayerController>();
-        layerControllers = player.GetComponentsInChildren<PlayerController>();
+        weaponController = FindGameObject.InChildWithTag(player, "weapon").GetComponent<WeaponController>();
+        stateController = player.GetComponentInChildren<StateController>();
         glow.SetActive(false);
         menu.SetActive(false);
         this.set();
@@ -42,31 +44,40 @@ public class NPCController : MonoBehaviour
     
     public void OnInteract()
     {
-        if(isEnabled && !swordController.hasSword)
+        Debug.Log(weaponController.ToString());
+
+        if(isEnabled && !stateController.hasSword)
         {
-            Debug.Log("hello");
-            swordController.hasSword = true;
-            swordController.gameObject.SetActive(true);
+            Debug.Log("before syncing");
+
+            stateController.hasSword = true;
+            weaponController.gameObject.SetActive(true);
             for (int i = 0; i < layerControllers.Length; i++)
             {
-                layerControllers[i].hasSword = true;
+                Debug.Log("syncing");
+
                 layerControllers[i].anim.animationCounter = 0;
                 layerControllers[i].anim.spriteId = 0;
+
             }
 
-            string animationString = swordController.anim.getCurrentAnimationString();
-
+            weaponController.anim.animationCounter = 0;
+            weaponController.anim.spriteId = 0;
+            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
+            //Debug.Log(animationString);
             if (animationString.Contains("up"))
             {
-                swordController.SetZPos(-1f);
+                //Debug.Log("contains_Up");
+                weaponController.SetZPos(-1f);
 
             }
             else 
             {
-                swordController.SetZPos(0.5f);
+                //Debug.Log("does not contain up");
+                weaponController.SetZPos(0.5f);
             }
 
-            swordController.flipXOnMove();
+            weaponController.flipXOnMove();
         }
     }
 

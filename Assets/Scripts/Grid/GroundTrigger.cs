@@ -31,7 +31,7 @@ public class GroundTrigger : MonoBehaviour
 
         // colliders
         groundCollider = GameObject.FindGameObjectWithTag("ground-collider").GetComponent<CompositeCollider2D>();
-        playerCollider = GameObject.FindGameObjectWithTag("player").GetComponent<CapsuleCollider2D>();
+        playerCollider = GameObject.FindGameObjectWithTag("character").GetComponent<CapsuleCollider2D>();
         elevationColliders = new CompositeCollider2D[elevationObjects.Length];
         for (int i = 0; i < elevationObjects.Length; i++)
         { 
