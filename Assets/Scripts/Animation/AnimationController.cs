@@ -103,6 +103,4 @@ public class AnimationController
         string animationString = currentAnimation + "_" + stateController.getCurrentOrientationString();
         return animations[animationString];
     }
-
-
 }
