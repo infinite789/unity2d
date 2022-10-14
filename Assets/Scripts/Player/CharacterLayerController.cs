@@ -10,7 +10,6 @@ public class CharacterLayerController : MonoBehaviour
     private Vector2 moveInput;
     public float hitTimer = 0f;
     public float hitDuration = 1f;
-    public bool hasSword = false;
     public GameObject player;
     private CharacterLayerController playerController;
     public CharacterLayerController[] layerControllers;
@@ -35,7 +34,7 @@ public class CharacterLayerController : MonoBehaviour
 
         if (this.tag == "sword")
         {
-            gameObject.SetActive(hasSword);
+            gameObject.SetActive(stateController.hasSword);
         }
     }
 
@@ -51,13 +50,13 @@ public class CharacterLayerController : MonoBehaviour
         //Debug.Log(anim.config[0].animationClass);
         anim.UpdateAnimation(moveInput);
 
-        if(stateController.isFiring && hitTimer > 0)
+        if(stateController.isFiring && hitTimer > 0 && this.tag == "sword")
         {
             hitTimer -= Time.fixedDeltaTime;
         }
         //Debug.Log(hitTimer);
 
-        if(stateController.isFiring && hitTimer <= 0)
+        if(stateController.isFiring && hitTimer <= 0 && this.tag == "sword")
         {
             stateController.isFiring = false;
             Debug.Log("hello my friend");
@@ -75,11 +74,10 @@ public class CharacterLayerController : MonoBehaviour
 
     private void OnFire(InputValue input)
     {
-        if(hasSword)
+        if(stateController.hasSword && this.tag == "sword")
         {
             if (!stateController.isFiring && moveInput == Vector2.zero)
             {
-                Debug.Log("hii");
                 hitTimer = hitDuration;
                 stateController.isFiring = true;
 
@@ -101,7 +99,10 @@ public class CharacterLayerController : MonoBehaviour
                 SetZPos(-0.5f);
             }
 
-           
+            Debug.Log("hii");
+            Debug.Log(hitTimer);
+            Debug.Log(stateController.isFiring);
+
         }
     }
     private void OnMove(InputValue input)

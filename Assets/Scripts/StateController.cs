@@ -10,8 +10,8 @@ public class StateController : MonoBehaviour
     public bool isLeftInitially = true;
     private Vector2 moveInput;
     public float animationSpeed;
-    public bool isFiring;
-    public bool hasSword;
+    public bool isFiring = false;
+    public bool hasSword = false;
 
     public void Start()
     {

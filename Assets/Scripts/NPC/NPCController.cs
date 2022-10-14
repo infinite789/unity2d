@@ -9,6 +9,7 @@ public class NPCController : MonoBehaviour
     private GameObject menu;
     private GameObject player;
     private GameObject weapon;
+    private StateController stateController;
     private CharacterLayerController swordController;
     private CharacterLayerController[] layerControllers;
 
@@ -18,6 +19,7 @@ public class NPCController : MonoBehaviour
         menu = FindGameObject.InChildWithTag(gameObject, "menu");
         player = GameObject.FindGameObjectWithTag("player");
         weapon = FindGameObject.InChildWithTag(player, "weapon");
+        stateController = player.GetComponentInChildren<StateController>();
         swordController = FindGameObject.InChildWithTag(weapon, "sword").GetComponent<CharacterLayerController>();
         layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         glow.SetActive(false);
@@ -45,13 +47,12 @@ public class NPCController : MonoBehaviour
     public void OnInteract()
     {
 
-        if(isEnabled && !swordController.hasSword)
+        if(isEnabled && !stateController.hasSword)
         {
-            swordController.hasSword = true;
+            stateController.hasSword = true;
             swordController.gameObject.SetActive(true);
             for (int i = 0; i < layerControllers.Length; i++)
             {
-                layerControllers[i].hasSword = true;
                 layerControllers[i].anim.animationCounter = 0;
                 layerControllers[i].anim.spriteId = 0;
             }
