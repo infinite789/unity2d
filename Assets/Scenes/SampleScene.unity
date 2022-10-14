@@ -450,9 +450,6 @@ MonoBehaviour:
     appendix: 
     relativeAnimationSpeed: 1
     currentAnimation: 
-  hitTimer: 0
-  hitDuration: 15
-  hasSword: 0
   player: {fileID: 1509987669}
   layerControllers: []
 --- !u!114 &217889061
@@ -34049,6 +34046,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1466558614}
+  - component: {fileID: 1466558615}
+  - component: {fileID: 1466558616}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: weapon
@@ -34072,6 +34071,88 @@ Transform:
   m_Father: {fileID: 516548494}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466558615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466558613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22854a7faa6ce3845aa919790597ee58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim:
+    config:
+    - animationClass: idle_sword
+      subClasses:
+      - subClass: 4
+        numberOfLayers: 1
+      - subClass: 1
+        numberOfLayers: 1
+      - subClass: 3
+        numberOfLayers: 1
+      isLeft: 1
+    - animationClass: run_sword
+      subClasses:
+      - subClass: 4
+        numberOfLayers: 1
+      - subClass: 1
+        numberOfLayers: 1
+      - subClass: 3
+        numberOfLayers: 1
+      isLeft: 1
+    - animationClass: hit_sword
+      subClasses:
+      - subClass: 1
+        numberOfLayers: 1
+      - subClass: 4
+        numberOfLayers: 1
+      - subClass: 3
+        numberOfLayers: 1
+      isLeft: 1
+    renderer: {fileID: 1965185687}
+    spriteId: 0
+    animationCounter: 0
+    direction: {x: 0, y: 0}
+    layerId: 1
+    appendix: sword
+    relativeAnimationSpeed: 1
+    currentAnimation: 
+  player: {fileID: 1509987669}
+  layerControllers: []
+  animationString: 
+--- !u!114 &1466558616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466558613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 5df13778bc640104b90f0cac3776009a, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1509987669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2349164645661691743, guid: e47e305fcb7bfc7408047c69431fb978, type: 3}
@@ -34374,6 +34455,8 @@ MonoBehaviour:
   animationSpeed: 30
   isFiring: 0
   hasSword: 0
+  hitTimer: 0
+  hitDuration: 1
 --- !u!114 &1545181823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42309,11 +42392,10 @@ GameObject:
   - component: {fileID: 1965185685}
   - component: {fileID: 1965185687}
   - component: {fileID: 1965185686}
-  - component: {fileID: 1965185688}
   - component: {fileID: 1965185689}
   m_Layer: 0
-  m_Name: Sword
-  m_TagString: sword
+  m_Name: WeaponLayer-Sword
+  m_TagString: weapon-layer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42326,7 +42408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965185684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42405,61 +42487,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1965185688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965185684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d37492fa3f6fa489b0cb1ad84b25d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentController: {fileID: 1509987671}
-  anim:
-    config:
-    - animationClass: idle_sword
-      subClasses:
-      - subClass: 4
-        numberOfLayers: 1
-      - subClass: 1
-        numberOfLayers: 1
-      - subClass: 3
-        numberOfLayers: 1
-      isLeft: 1
-    - animationClass: run_sword
-      subClasses:
-      - subClass: 4
-        numberOfLayers: 1
-      - subClass: 1
-        numberOfLayers: 1
-      - subClass: 3
-        numberOfLayers: 1
-      isLeft: 1
-    - animationClass: hit_sword
-      subClasses:
-      - subClass: 1
-        numberOfLayers: 1
-      - subClass: 4
-        numberOfLayers: 1
-      - subClass: 3
-        numberOfLayers: 1
-      isLeft: 1
-    renderer: {fileID: 1965185687}
-    spriteId: 0
-    animationCounter: 0
-    direction: {x: 0, y: 0}
-    layerId: 1
-    appendix: sword
-    relativeAnimationSpeed: 1
-    currentAnimation: 
-  hitTimer: 0
-  hitDuration: 15
-  hasSword: 0
-  player: {fileID: 1509987669}
-  layerControllers: []
 --- !u!114 &1965185689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42769,9 +42796,6 @@ MonoBehaviour:
     appendix: 
     relativeAnimationSpeed: 1
     currentAnimation: 
-  hitTimer: 0
-  hitDuration: 15
-  hasSword: 0
   player: {fileID: 1509987669}
   layerControllers: []
 --- !u!114 &2078607900

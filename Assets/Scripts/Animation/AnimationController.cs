@@ -29,15 +29,12 @@ public class AnimationController
 
     public float relativeAnimationSpeed = 1;
 
-    private CharacterLayerController playerController;
-
     public string currentAnimation;
 
     public void CreateAnimations(GameObject gameObject)
     {
         stateController = GameObject.FindObjectOfType<StateController>();
 
-        playerController = gameObject.GetComponent<CharacterLayerController>();
         animationSpeed = stateController.animationSpeed;
         foreach (AnimationConfig animConfig in config)
         {

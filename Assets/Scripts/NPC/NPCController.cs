@@ -10,7 +10,7 @@ public class NPCController : MonoBehaviour
     private GameObject player;
     private GameObject weapon;
     private StateController stateController;
-    private CharacterLayerController swordController;
+    private WeaponController weaponController;
     private CharacterLayerController[] layerControllers;
 
     private void Start()
@@ -18,9 +18,8 @@ public class NPCController : MonoBehaviour
         glow = FindGameObject.InChildWithTag(gameObject, "glow");
         menu = FindGameObject.InChildWithTag(gameObject, "menu");
         player = GameObject.FindGameObjectWithTag("player");
-        weapon = FindGameObject.InChildWithTag(player, "weapon");
+        weaponController = FindGameObject.InChildWithTag(player, "weapon").GetComponent<WeaponController>();
         stateController = player.GetComponentInChildren<StateController>();
-        swordController = FindGameObject.InChildWithTag(weapon, "sword").GetComponent<CharacterLayerController>();
         layerControllers = player.GetComponentsInChildren<CharacterLayerController>();
         glow.SetActive(false);
         menu.SetActive(false);
@@ -46,30 +45,33 @@ public class NPCController : MonoBehaviour
     
     public void OnInteract()
     {
+        Debug.Log(weaponController.ToString());
 
         if(isEnabled && !stateController.hasSword)
         {
             stateController.hasSword = true;
-            swordController.gameObject.SetActive(true);
+            weaponController.gameObject.SetActive(true);
             for (int i = 0; i < layerControllers.Length; i++)
             {
                 layerControllers[i].anim.animationCounter = 0;
                 layerControllers[i].anim.spriteId = 0;
             }
 
-            string animationString = swordController.anim.currentAnimation;
-
+            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
+            //Debug.Log(animationString);
             if (animationString.Contains("up"))
             {
-                swordController.SetZPos(-1f);
+                //Debug.Log("contains_Up");
+                weaponController.SetZPos(-1f);
 
             }
             else 
             {
-                swordController.SetZPos(0.5f);
+                //Debug.Log("does not contain up");
+                weaponController.SetZPos(0.5f);
             }
 
-            swordController.flipXOnMove();
+            weaponController.flipXOnMove();
         }
     }
 

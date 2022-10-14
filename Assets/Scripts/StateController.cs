@@ -12,6 +12,8 @@ public class StateController : MonoBehaviour
     public float animationSpeed;
     public bool isFiring = false;
     public bool hasSword = false;
+    public float hitTimer = 0;
+    public float hitDuration = 1;
 
     public void Start()
     {
@@ -19,6 +21,13 @@ public class StateController : MonoBehaviour
         currentOrientation = (Orientation)id;
     }
 
+    private void FixedUpdate()
+    {
+        if (isFiring && hitTimer > 0)
+        {
+            hitTimer -= Time.fixedDeltaTime;
+        }
+    }
 
     public Orientation getOrientation()
     {
