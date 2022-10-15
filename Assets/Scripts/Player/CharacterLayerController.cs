@@ -11,7 +11,6 @@ public class CharacterLayerController : MonoBehaviour
     public GameObject player;
     public CharacterLayerController[] layerControllers;
     private StateController stateController;
-    private string animationString;
 
     // Start is called before the first frame update
     void Start()
@@ -28,40 +27,22 @@ public class CharacterLayerController : MonoBehaviour
         {
             anim.renderer.flipX = false;
         }
-
     }
 
-    private void Update()
-    {
-
-    }
     // Update is called once per frame
     void FixedUpdate()
     {
-        //Debug.Log(hitTimer);
-        //Debug.Log(stateController.isFiring);
-        //Debug.Log(anim.config[0].animationClass);
-        animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
         anim.UpdateAnimation(moveInput);
-       
-        //Debug.Log(hitTimer);
-
-       
-
-     
     }
-
        
     private void OnMove(InputValue input)
     {
         moveInput = input.Get<Vector2>();
         flipXOnMove();
-
     }
 
     public void flipXOnMove()
     {
-
         // SET LEFT/RIGHT ORIENTATION DEPENDING ON INITIAL SIDE ORIENTATION
         if (stateController.isLeftInitially)
         {

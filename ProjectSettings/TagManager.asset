@@ -16,7 +16,8 @@ TagManager:
   - state
   - weapon
   - character
-  - weapon-layer
+  - weapon-sword
+  - weapon-hammer
   layers:
   - Default
   - TransparentFX

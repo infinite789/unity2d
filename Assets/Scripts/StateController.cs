@@ -11,9 +11,10 @@ public class StateController : MonoBehaviour
     private Vector2 moveInput;
     public float animationSpeed;
     public bool isFiring = false;
-    public bool hasSword = false;
+    public bool hasWeapon = false;
     public float hitTimer = 0;
     public float hitDuration = 1;
+    public string currentWeapon = "sword";
 
     public void Start()
     {

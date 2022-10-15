@@ -5,34 +5,48 @@ using UnityEngine.InputSystem;
 
 public class WeaponController : MonoBehaviour
 {
-    public AnimationController anim = new();
+    private WeaponLayerController activeWeaponLayer;
     private Vector2 moveInput;
-    public GameObject player;
-    private CharacterLayerController playerController;
-    private CharacterController parentController;
-    public CharacterLayerController[] layerControllers;
+    public CharacterController characterController;
+    public CharacterLayerController[] characterLayerControllers;
+    public WeaponLayerController[] weaponLayerControllers;
     private StateController stateController;
     public string animationString;
+    public string defaultWeapon = "sword";
+
+    private bool isActive = false;
+    public bool _isActive
+    {
+        get { return isActive; }
+        set
+        {
+            if (isActive == value)
+                return;
+
+            isActive = value;
+
+            if (OnToggleActive != null)
+                OnToggleActive(isActive);
+        }
+    }
+    public delegate void ToggleActive(bool newVal);
+    public static event ToggleActive OnToggleActive;
+
 
     // Start is called before the first frame update
     void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("player");
-        playerController = player.GetComponent<CharacterLayerController>();
-        parentController = FindGameObject.InChildWithTag(player, "character").GetComponent<CharacterController>();
+        Debug.Log("Awake Weapon");
+
+        OnToggleActive += ToggleLayerHandler;
+
         stateController = GameObject.FindObjectOfType<StateController>();
-        anim.CreateAnimations(gameObject);
 
-        if (stateController.getOrientation() == Orientation.right)
-        {
-            anim.renderer.flipX = true;
-        }
-        else
-        {
-            anim.renderer.flipX = false;
-        }
-
-        gameObject.SetActive(stateController.hasSword);
+        gameObject.SetActive(stateController.hasWeapon);
+    }
+    private void ToggleLayerHandler(bool newVal)
+    {
+        //do whatever
     }
 
     private void Update()
@@ -46,26 +60,26 @@ public class WeaponController : MonoBehaviour
             {
                 SetZPos(-0f);
             }
-
         }
     }
+
     // Update is called once per frame
     void FixedUpdate()
     {
         //Debug.Log(hitTimer);
         //Debug.Log(stateController.isFiring);
         //Debug.Log(anim.config[0].animationClass);
-        animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
-        anim.UpdateAnimation(moveInput);
+        string currentOrientation = stateController.getCurrentOrientationString();
+        string currentClass = stateController.getCurrentClass();
+
+        animationString = currentClass + "_" + currentOrientation;
 
         //Debug.Log(hitTimer);
-
     }
-
 
     private void OnFire(InputValue input)
     {
-        if (stateController.hasSword)
+        if (stateController.hasWeapon)
         {
             if (!stateController.isFiring && moveInput == Vector2.zero)
             {
@@ -73,16 +87,12 @@ public class WeaponController : MonoBehaviour
                 stateController.isFiring = true;
                 Debug.Log("before syncing");
 
-                for (int i = 0; i < layerControllers.Length; i++)
+                for (int i = 0; i < characterLayerControllers.Length; i++)
                 {
                     Debug.Log("syncing");
-                    layerControllers[i].anim.animationCounter = 0;
-                    layerControllers[i].anim.spriteId = 0;
-
-                
+                    characterLayerControllers[i].anim.animationCounter = 0;
+                    characterLayerControllers[i].anim.spriteId = 0;
                 }
-                anim.animationCounter = 0;
-                anim.spriteId = 0;
             }
             Debug.Log(animationString);
             if (animationString.Contains("up"))
@@ -95,14 +105,12 @@ public class WeaponController : MonoBehaviour
             {
                 SetZPos(-0.15f);
             }
-
-
         }
     }
+
     private void OnMove(InputValue input)
     {
         moveInput = input.Get<Vector2>();
-        flipXOnMove();
 
         if (animationString.Contains("up"))
         {
@@ -112,51 +120,13 @@ public class WeaponController : MonoBehaviour
         {
             SetZPos(0.15f);
         }
-
-
     }
-
-    public void flipXOnMove()
-    {
-
-        // SET LEFT/RIGHT ORIENTATION DEPENDING ON INITIAL SIDE ORIENTATION
-        if (stateController.isLeftInitially)
-        {
-            if (stateController.getOrientation() == Orientation.left)
-            {
-                anim.renderer.flipX = false;
-            }
-            else
-            {
-                anim.renderer.flipX = true;
-            }
-        }
-        else
-        {
-            if (stateController.getOrientation() == Orientation.left)
-            {
-                anim.renderer.flipX = true;
-            }
-            else
-            {
-                anim.renderer.flipX = false;
-            }
-        }
-
-        if (stateController.getOrientation() == Orientation.up || stateController.getOrientation() == Orientation.down)
-        {
-            anim.renderer.flipX = false;
-        }
-    }
-
 
     public void SetZPos(float zPos)
     {
-        Debug.Log(zPos);
         this.transform.position = new Vector3(
-               parentController.transform.position.x,
-               parentController.transform.position.y,
-               parentController.transform.position.z + zPos);
+               characterController.transform.position.x,
+               characterController.transform.position.y,
+               characterController.transform.position.z + zPos);
     }
-
 }

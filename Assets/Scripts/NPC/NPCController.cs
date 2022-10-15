@@ -8,7 +8,6 @@ public class NPCController : MonoBehaviour
     private GameObject glow;
     private GameObject menu;
     private GameObject player;
-    private GameObject weapon;
     private StateController stateController;
     private WeaponController weaponController;
     public CharacterLayerController[] layerControllers;
@@ -44,40 +43,11 @@ public class NPCController : MonoBehaviour
     
     public void OnInteract()
     {
-        Debug.Log(weaponController.ToString());
 
-        if(isEnabled && !stateController.hasSword)
+        if(isEnabled && !stateController.hasWeapon)
         {
-            Debug.Log("before syncing");
-
-            stateController.hasSword = true;
+            stateController.hasWeapon = true;
             weaponController.gameObject.SetActive(true);
-            for (int i = 0; i < layerControllers.Length; i++)
-            {
-                Debug.Log("syncing");
-
-                layerControllers[i].anim.animationCounter = 0;
-                layerControllers[i].anim.spriteId = 0;
-
-            }
-
-            weaponController.anim.animationCounter = 0;
-            weaponController.anim.spriteId = 0;
-            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
-            //Debug.Log(animationString);
-            if (animationString.Contains("up"))
-            {
-                //Debug.Log("contains_Up");
-                weaponController.SetZPos(-1f);
-
-            }
-            else 
-            {
-                //Debug.Log("does not contain up");
-                weaponController.SetZPos(0.5f);
-            }
-
-            weaponController.flipXOnMove();
         }
     }
 

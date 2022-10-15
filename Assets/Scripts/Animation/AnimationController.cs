@@ -31,6 +31,8 @@ public class AnimationController
 
     public string currentAnimation;
 
+    public string prefix = "";
+
     public void CreateAnimations(GameObject gameObject)
     {
         stateController = GameObject.FindObjectOfType<StateController>();
@@ -44,7 +46,6 @@ public class AnimationController
 
             for (int i = 0; i < animConfig.subClasses.Length; i++)
             {
-
                 int numberOfLayers = animConfig.subClasses[i].numberOfLayers;
                 for (int j = 0; j < numberOfLayers; j++)
                 {
@@ -52,17 +53,16 @@ public class AnimationController
                     {
                         int endpoint = startpoint + frames;
                         string key = animConfig.animationClass + "_" + animConfig.subClasses[i].subClass.ToString();
-                        Debug.Log("Layer ID: " + layerId);
-                        Debug.Log("key: " + key);
-                        Debug.Log(startpoint + "   :   " + endpoint);
-                        Debug.Log("number of layers: " + numberOfLayers);
+                        //Debug.Log("Layer ID: " + layerId);
+                        //Debug.Log("key: " + key);
+                        //Debug.Log(startpoint + "   :   " + endpoint);
+                        //Debug.Log("number of layers: " + numberOfLayers);
                         this.animations.Add(key, sprites[startpoint..endpoint]);
                         startpoint = startpoint + frames * numberOfLayers;
 
                     } 
                 }
             }
-            //Debug.Log(animConfig.animationClass);
             framesPerSubclass[animConfig.animationClass] = frames;
 
         }
@@ -74,18 +74,16 @@ public class AnimationController
         {
             string currentOrientation = stateController.getCurrentOrientationString();
             string currentClass = stateController.getCurrentClass();
-            //Debug.Log(currentClass);
             this.currentAnimation = appendix == "" ? currentClass : (currentClass + "_" + appendix);
-            string animationString = currentAnimation + "_" + currentOrientation;
+            this.currentAnimation = prefix == "" ? currentAnimation : (prefix + "_" + currentAnimation);
 
+            string animationString = currentAnimation + "_" + currentOrientation;
 
             this.direction = direction;
             spriteId = (int)animationCounter % framesPerSubclass[currentAnimation];
-            //Debug.Log("spriteId: " + spriteId);
 
             if (animations.ContainsKey(animationString))
             {
-                //Debug.Log(stateController.getCurrentAnimationString());
                 renderer.sprite = getCurrentAnimation()[spriteId];
             }
             else
