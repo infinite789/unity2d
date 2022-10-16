@@ -501,7 +501,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hit_0
+      name: hit_sword_0
       rect:
         serializedVersion: 2
         x: 0
@@ -509,20 +509,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e3d9f08ede458409f13ce523de998b
-      internalID: -1538581440
+      spriteID: 51070b87d6d67934a9f6fb8134dcbc6f
+      internalID: 1909749789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_1
+      name: hit_sword_1
       rect:
         serializedVersion: 2
         x: 360
@@ -530,20 +530,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b912ee942732740bffa3c0ed653cab
-      internalID: -548149555
+      spriteID: 6bc1ba42ac642ee41b26b292ac2fed18
+      internalID: 64368795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_2
+      name: hit_sword_2
       rect:
         serializedVersion: 2
         x: 720
@@ -551,20 +551,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff2720fe30476354c98e58f027d732d6
-      internalID: -1156664498
+      spriteID: 04139ed300ca1aa438d860d45a6a2216
+      internalID: -1889395006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_3
+      name: hit_sword_3
       rect:
         serializedVersion: 2
         x: 1080
@@ -572,20 +572,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 580df462bb41334488e17983547a896a
-      internalID: -162537545
+      spriteID: 92e5a16b083d16440968881ed55e7a95
+      internalID: 390724816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_4
+      name: hit_sword_4
       rect:
         serializedVersion: 2
         x: 1440
@@ -593,20 +593,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68effeece12d27a4bbe0e398ead3c684
-      internalID: 2030969857
+      spriteID: 8915e99be2c2fa449bbb85bcc5cc4afd
+      internalID: -940877017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_5
+      name: hit_sword_5
       rect:
         serializedVersion: 2
         x: 1800
@@ -614,20 +614,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 484f5ddcad9ceb949a951703244781ad
-      internalID: -2070311951
+      spriteID: eaf6bfb685b93e2438e3837800441562
+      internalID: 1955925425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_6
+      name: hit_sword_6
       rect:
         serializedVersion: 2
         x: 2160
@@ -635,20 +635,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01d3631e6b16f4e4cac381456acec74e
-      internalID: 1256873788
+      spriteID: 29dee8125deff8a48bb00bc49da2082d
+      internalID: 1219971926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_7
+      name: hit_sword_7
       rect:
         serializedVersion: 2
         x: 2520
@@ -656,20 +656,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de87266542091954485a91d47eb8345e
-      internalID: 1632218126
+      spriteID: 1ac189e1bdf5faf4ab91d9272438b722
+      internalID: 1003316534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_8
+      name: hit_sword_8
       rect:
         serializedVersion: 2
         x: 2880
@@ -677,20 +677,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2e2ce4b5b49be540bf51d018ce16b85
-      internalID: 913873993
+      spriteID: 7c6c20d4c52cc824e8f7f6bd537ff75b
+      internalID: -1160832860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_9
+      name: hit_sword_9
       rect:
         serializedVersion: 2
         x: 3240
@@ -698,20 +698,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebcea66b11ed6b4ab9af2432cef78d4
-      internalID: 2126164790
+      spriteID: 07a9dc43d4dcc4946ad29678a85d4689
+      internalID: 1195207673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_10
+      name: hit_sword_10
       rect:
         serializedVersion: 2
         x: 3600
@@ -719,20 +719,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dbb4892074b4b042aab5ce85105c87f
-      internalID: -1710266128
+      spriteID: 3d5a7d57e2a12eb4d82121d98b436632
+      internalID: -1178690288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_11
+      name: hit_sword_11
       rect:
         serializedVersion: 2
         x: 0
@@ -740,20 +740,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16e23f3128601f94ebbbbc0cef7da319
-      internalID: -413394937
+      spriteID: 9e0b082d4425f1b4a9990cf225b0d562
+      internalID: -484888631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_12
+      name: hit_sword_12
       rect:
         serializedVersion: 2
         x: 360
@@ -761,20 +761,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a60b85600ff63f408bcd6609bfc1a77
-      internalID: 758922672
+      spriteID: 4c43a34f69e83574c9dac296433ba457
+      internalID: 349488154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_13
+      name: hit_sword_13
       rect:
         serializedVersion: 2
         x: 720
@@ -782,20 +782,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5eb25fe8557bd142bfbc83e82a7c2ec
-      internalID: -1271293450
+      spriteID: 8be8af3db5973c54ca3453eb5303ef4d
+      internalID: 1817870906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_14
+      name: hit_sword_14
       rect:
         serializedVersion: 2
         x: 1080
@@ -803,20 +803,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28476ba0503edb34caf6b3c4dd4e549d
-      internalID: 455306350
+      spriteID: 1447bca1dc9972845a5107fbfe8b8527
+      internalID: 1754128142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_15
+      name: hit_sword_15
       rect:
         serializedVersion: 2
         x: 1440
@@ -824,20 +824,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8b8405d6c466d140b7dc471e82f25e5
-      internalID: -1064217586
+      spriteID: 94e1ae8190268764bb2c02250516c49e
+      internalID: 469939867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_16
+      name: hit_sword_16
       rect:
         serializedVersion: 2
         x: 1800
@@ -845,20 +845,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fe130c5d83de8448aff0c739dcbd0b8
-      internalID: 1381070071
+      spriteID: c2dcf67bfcc07cb4a8ee55ae7f47864c
+      internalID: 219655118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_17
+      name: hit_sword_17
       rect:
         serializedVersion: 2
         x: 2160
@@ -866,20 +866,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ecac7ee83fc7ce4f941a3536a03f10b
-      internalID: -1779152072
+      spriteID: defc6275242fd144d8f97de9f743c567
+      internalID: 1393095461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_18
+      name: hit_sword_18
       rect:
         serializedVersion: 2
         x: 2520
@@ -887,20 +887,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb1cf84fa8786c45bfa23f2505b5ac3
-      internalID: 600604328
+      spriteID: a726e6ac7c8b36d4d8aba8ca94aaa931
+      internalID: -2087756283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_19
+      name: hit_sword_19
       rect:
         serializedVersion: 2
         x: 2880
@@ -908,20 +908,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a24dbdf1f239e24e9d817835427f4c9
-      internalID: -1523658644
+      spriteID: 44ed13a616e24aa438214a6d7d77fb58
+      internalID: -2060338883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_20
+      name: hit_sword_20
       rect:
         serializedVersion: 2
         x: 3240
@@ -929,20 +929,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37dc6ee6c454bdb4596e025bb06e77a8
-      internalID: 680264137
+      spriteID: 0e67c6fc8e8eec24498aa0900f46e9ad
+      internalID: 150446012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_21
+      name: hit_sword_21
       rect:
         serializedVersion: 2
         x: 3600
@@ -950,20 +950,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c924fdff66d1004481a1f41de39a1b4
-      internalID: -658663554
+      spriteID: cc6b3ae17d7e42b43a9958ccd3ab25e6
+      internalID: 1287668481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_22
+      name: hit_sword_22
       rect:
         serializedVersion: 2
         x: 0
@@ -971,20 +971,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af273f0bb424bc4584f8b01974545f9
-      internalID: -6950408
+      spriteID: e3af5fd844d2a8c40a47a40ba2e0f3df
+      internalID: -758333512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_23
+      name: hit_sword_23
       rect:
         serializedVersion: 2
         x: 360
@@ -992,20 +992,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f827c703171bd6247b0d08734056acb8
-      internalID: 201128477
+      spriteID: 597ebd7c6f63aa242bccf2fadbdea141
+      internalID: 1824763848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_24
+      name: hit_sword_24
       rect:
         serializedVersion: 2
         x: 720
@@ -1013,20 +1013,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c285a7662127413448dc49fd030abfe8
-      internalID: -29338214
+      spriteID: 86029db7e0f53a648873f159d0a4c62c
+      internalID: 1368834115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_25
+      name: hit_sword_25
       rect:
         serializedVersion: 2
         x: 1080
@@ -1034,20 +1034,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fdc69175562de469d00ba5e3b47a65
-      internalID: -1991661204
+      spriteID: b798a15a196e20647a8b0040a2757558
+      internalID: 1983201943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_26
+      name: hit_sword_26
       rect:
         serializedVersion: 2
         x: 1440
@@ -1055,20 +1055,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197df0227d6a74f4ba808e8b78d361c7
-      internalID: 450277906
+      spriteID: 49f1b73c48512674d80c74d6b488494f
+      internalID: 1716619234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_27
+      name: hit_sword_27
       rect:
         serializedVersion: 2
         x: 1800
@@ -1076,20 +1076,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d364b0fe77943d4cb6cc36d0feb4763
-      internalID: 2009258472
+      spriteID: 7e274a9e4d71dda48a88c30ab407891e
+      internalID: -513490364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_28
+      name: hit_sword_28
       rect:
         serializedVersion: 2
         x: 2160
@@ -1097,20 +1097,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e50198a89005fc848aeb5e7601f33971
-      internalID: 1068086847
+      spriteID: e908221b0219bcb4584eb9c11740073b
+      internalID: -303447138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_29
+      name: hit_sword_29
       rect:
         serializedVersion: 2
         x: 2520
@@ -1118,20 +1118,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47c086c81c0187349b1d9678ef9426d6
-      internalID: 407555590
+      spriteID: 262d51519574f344682195f5cf1e2fee
+      internalID: -1528480463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_30
+      name: hit_sword_30
       rect:
         serializedVersion: 2
         x: 2880
@@ -1139,20 +1139,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee99be36e6e07fc4686e6c9c99a64cb5
-      internalID: 1141715871
+      spriteID: a8f71262bdf81474dbbeb9eec1b87861
+      internalID: -1906176828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_31
+      name: hit_sword_31
       rect:
         serializedVersion: 2
         x: 3240
@@ -1160,20 +1160,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a86df99338446fc40a2b45ba9b66048f
-      internalID: -85153552
+      spriteID: ca6f7a7e4a2b7ab4f95e90d700225d1b
+      internalID: 1700294395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_32
+      name: hit_sword_32
       rect:
         serializedVersion: 2
         x: 3600
@@ -1181,20 +1181,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca9af9d449ebb94eb46468e1b18e6e0
-      internalID: -1113859051
+      spriteID: 777d8dae18f80004da90efb00ac566d9
+      internalID: 909999683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_33
+      name: hit_sword_33
       rect:
         serializedVersion: 2
         x: 0
@@ -1202,20 +1202,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b3b69104b16fc24eb5ad65fa1d920d1
-      internalID: -1830789611
+      spriteID: 892a465c66e723342b3880b0470e6ef8
+      internalID: 459095568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_34
+      name: hit_sword_34
       rect:
         serializedVersion: 2
         x: 360
@@ -1223,20 +1223,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cd0c0f6ce86b164a8af5aa11325a912
-      internalID: -803198276
+      spriteID: 8baf4bf158b622c4f854dbb3ef0e9261
+      internalID: 802625088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_35
+      name: hit_sword_35
       rect:
         serializedVersion: 2
         x: 720
@@ -1244,20 +1244,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2633a9e0e88421d4ba4943d4a561946d
-      internalID: -1804763687
+      spriteID: 260879d885460904ba0c9fc8cf602afe
+      internalID: -2054861791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_36
+      name: hit_sword_36
       rect:
         serializedVersion: 2
         x: 1080
@@ -1265,20 +1265,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d262a22fd874cb48afcfc05f33a49c6
-      internalID: 857238792
+      spriteID: d5a64540ec0c997488a4e717fab79b0f
+      internalID: -2146711160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_37
+      name: hit_sword_37
       rect:
         serializedVersion: 2
         x: 1440
@@ -1286,20 +1286,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf5c430cf507b4747b9a844d531e861b
-      internalID: -1781194891
+      spriteID: 046eeb5a28fb58643a3b2c342347c10e
+      internalID: -109949801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_38
+      name: hit_sword_38
       rect:
         serializedVersion: 2
         x: 1800
@@ -1307,20 +1307,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e10a2e74bd7bc4db0b42848c4bc6c1
-      internalID: -61351874
+      spriteID: 6ee4067c6fa51044298d59a8f8d62a6c
+      internalID: -740485267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_39
+      name: hit_sword_39
       rect:
         serializedVersion: 2
         x: 2160
@@ -1328,20 +1328,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21c0e4ee2270bec4fac51f8eec9256ee
-      internalID: -421320043
+      spriteID: cb8e3506e1005ae4f953f05b79ca9cb0
+      internalID: 15016806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_40
+      name: hit_sword_40
       rect:
         serializedVersion: 2
         x: 2520
@@ -1349,20 +1349,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87277cfd40d3b4a44b9ee5df76755560
-      internalID: -1316871009
+      spriteID: 34db6a8d368b03544b1cda3c78dee1b8
+      internalID: 1714244743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_41
+      name: hit_sword_41
       rect:
         serializedVersion: 2
         x: 2880
@@ -1370,20 +1370,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab639fc3605110449935c47b2f542982
-      internalID: -607806677
+      spriteID: 2a5099008877fe14fb9462b5c280c9ca
+      internalID: 606319261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_42
+      name: hit_sword_42
       rect:
         serializedVersion: 2
         x: 3240
@@ -1391,20 +1391,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1ea649e7d2125c4fa7cbd08105e1ee9
-      internalID: -362154204
+      spriteID: 1c3280dde3dedc341b0b1a141b4be61b
+      internalID: -1147936481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_43
+      name: hit_sword_43
       rect:
         serializedVersion: 2
         x: 3600
@@ -1412,20 +1412,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 984e050cd37845042ae59f5fd89c2220
-      internalID: 1309614607
+      spriteID: 36b4ec6aeda842744befbcd6efbcb373
+      internalID: -2113630333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_44
+      name: hit_sword_44
       rect:
         serializedVersion: 2
         x: 0
@@ -1433,20 +1433,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 602f19cd6324958429ad1ebd47585844
-      internalID: -493208970
+      spriteID: 51af40066c8cf884e9defcee2bfa3524
+      internalID: -955889213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_45
+      name: hit_sword_45
       rect:
         serializedVersion: 2
         x: 360
@@ -1454,20 +1454,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1648d1c672b7d2d4c8c77e7580b73b1a
-      internalID: -663055106
+      spriteID: 055d548a38e0e7440a7dfcc80b2e2e50
+      internalID: 380902747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_46
+      name: hit_sword_46
       rect:
         serializedVersion: 2
         x: 720
@@ -1475,20 +1475,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a6b6750a97014a48b51ab3bbd8a15d4
-      internalID: 1280379289
+      spriteID: 7cc211370ddfea240884c6e7ffe98ca4
+      internalID: 615288060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_47
+      name: hit_sword_47
       rect:
         serializedVersion: 2
         x: 1080
@@ -1496,20 +1496,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fad521c6623faf4da55cc249be4a6db
-      internalID: 806238583
+      spriteID: 807bedbddc84abe459651afe900b374d
+      internalID: -83355667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_48
+      name: hit_sword_48
       rect:
         serializedVersion: 2
         x: 1440
@@ -1517,20 +1517,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1350ac36330874e9fafc6bcf0aa44c
-      internalID: 2113090796
+      spriteID: be68c6d260e2b24498750fbaffb6f5a5
+      internalID: 1624252499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_49
+      name: hit_sword_49
       rect:
         serializedVersion: 2
         x: 1800
@@ -1538,20 +1538,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f253ec7214bfa5048bdb4b12829e93fd
-      internalID: 898054322
+      spriteID: e96771790543f884fb009787b47414a9
+      internalID: -779306074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_50
+      name: hit_sword_50
       rect:
         serializedVersion: 2
         x: 2160
@@ -1559,20 +1559,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd935bf01ab157a41a7e42cb0a8bb7e4
-      internalID: -986557240
+      spriteID: e8f5b8f3d1d405e40b3355c20adf4bff
+      internalID: -868381005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_51
+      name: hit_sword_51
       rect:
         serializedVersion: 2
         x: 2520
@@ -1580,20 +1580,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 760714a69cee25142a16f4b390c4ff11
-      internalID: 1256382785
+      spriteID: 9e2720d4f9700a049bf6fb751b7a869c
+      internalID: 481765518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_52
+      name: hit_sword_52
       rect:
         serializedVersion: 2
         x: 2880
@@ -1601,20 +1601,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13b82e1e418bee64cada99a6f4fca376
-      internalID: 573257578
+      spriteID: 48f155147394fc741bcc8e32e0035ba7
+      internalID: -1887503984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_53
+      name: hit_sword_53
       rect:
         serializedVersion: 2
         x: 3240
@@ -1622,20 +1622,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3222aff4794b9e54690e608cfe8e759b
-      internalID: 2128842657
+      spriteID: 6f332be59af2f284794010a53c29105e
+      internalID: -58475505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_54
+      name: hit_sword_54
       rect:
         serializedVersion: 2
         x: 3600
@@ -1643,20 +1643,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2e8d5c85d78ba4bb8f07a2e42d0304
-      internalID: -2058493481
+      spriteID: af4f83c0a065bd346858e1f784ca9070
+      internalID: 1465632526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_55
+      name: hit_sword_55
       rect:
         serializedVersion: 2
         x: 0
@@ -1664,20 +1664,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 369c217d4ff920245af3c4fbef80b482
-      internalID: -55136332
+      spriteID: 89cc7a52d4e203e4785b30829ac55a22
+      internalID: -1107063977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_56
+      name: hit_sword_56
       rect:
         serializedVersion: 2
         x: 360
@@ -1685,20 +1685,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a4dd63716e25174f973d1e59083455c
-      internalID: 1675046324
+      spriteID: 290236c04e553104d90843de51081d1a
+      internalID: 351806522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_57
+      name: hit_sword_57
       rect:
         serializedVersion: 2
         x: 720
@@ -1706,20 +1706,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed610ad46fbb4c74ba7236da50b2c367
-      internalID: -130615270
+      spriteID: afa1ef7b7743ffa488ddc3c1b13184f6
+      internalID: -160405522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_58
+      name: hit_sword_58
       rect:
         serializedVersion: 2
         x: 1080
@@ -1727,20 +1727,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b843361700c527d48a1c59c3d1569ec6
-      internalID: 1766232050
+      spriteID: 58a70fd06b0c87c45b04f0bc18d6ab36
+      internalID: 2137945127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_59
+      name: hit_sword_59
       rect:
         serializedVersion: 2
         x: 1440
@@ -1748,14 +1748,14 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7cb91199ca26a4994c8496c7a832a1
-      internalID: -314794099
+      spriteID: 850173d45f58ce944a8f1867e7fecf63
+      internalID: 179366999
       vertices: []
       indices: 
       edges: []
@@ -1771,66 +1771,66 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hit_30: 1141715871
-      hit_15: -1064217586
-      hit_49: 898054322
-      hit_4: 2030969857
-      hit_55: -55136332
-      hit_28: 1068086847
-      hit_33: -1830789611
-      hit_11: -413394937
-      hit_37: -1781194891
-      hit_17: -1779152072
-      hit_10: -1710266128
-      hit_27: 2009258472
-      hit_43: 1309614607
-      hit_48: 2113090796
-      hit_56: 1675046324
-      hit_20: 680264137
-      hit_34: -803198276
-      hit_5: -2070311951
-      hit_50: -986557240
-      hit_39: -421320043
-      hit_22: -6950408
-      hit_32: -1113859051
-      hit_18: 600604328
-      hit_1: -548149555
-      hit_14: 455306350
-      hit_9: 2126164790
-      hit_45: -663055106
-      hit_46: 1280379289
-      hit_40: -1316871009
-      hit_29: 407555590
-      hit_53: 2128842657
-      hit_54: -2058493481
-      hit_38: -61351874
-      hit_58: 1766232050
-      hit_19: -1523658644
-      hit_21: -658663554
-      hit_13: -1271293450
-      hit_42: -362154204
-      hit_25: -1991661204
-      hit_36: 857238792
-      hit_52: 573257578
-      hit_8: 913873993
-      hit_23: 201128477
-      hit_59: -314794099
-      hit_16: 1381070071
-      hit_31: -85153552
-      hit_41: -607806677
-      hit_35: -1804763687
-      hit_44: -493208970
-      hit_57: -130615270
-      hit_3: -162537545
-      hit_7: 1632218126
-      hit_2: -1156664498
-      hit_51: 1256382785
-      hit_12: 758922672
-      hit_0: -1538581440
-      hit_26: 450277906
-      hit_6: 1256873788
-      hit_24: -29338214
-      hit_47: 806238583
+      hit_sword_40: 1714244743
+      hit_sword_56: 351806522
+      hit_sword_25: 1983201943
+      hit_sword_59: 179366999
+      hit_sword_41: 606319261
+      hit_sword_7: 1003316534
+      hit_sword_51: 481765518
+      hit_sword_53: -58475505
+      hit_sword_27: -513490364
+      hit_sword_12: 349488154
+      hit_sword_17: 1393095461
+      hit_sword_49: -779306074
+      hit_sword_14: 1754128142
+      hit_sword_50: -868381005
+      hit_sword_22: -758333512
+      hit_sword_0: 1909749789
+      hit_sword_57: -160405522
+      hit_sword_18: -2087756283
+      hit_sword_26: 1716619234
+      hit_sword_13: 1817870906
+      hit_sword_30: -1906176828
+      hit_sword_21: 1287668481
+      hit_sword_35: -2054861791
+      hit_sword_37: -109949801
+      hit_sword_20: 150446012
+      hit_sword_39: 15016806
+      hit_sword_2: -1889395006
+      hit_sword_23: 1824763848
+      hit_sword_38: -740485267
+      hit_sword_33: 459095568
+      hit_sword_43: -2113630333
+      hit_sword_55: -1107063977
+      hit_sword_9: 1195207673
+      hit_sword_36: -2146711160
+      hit_sword_28: -303447138
+      hit_sword_3: 390724816
+      hit_sword_46: 615288060
+      hit_sword_29: -1528480463
+      hit_sword_54: 1465632526
+      hit_sword_45: 380902747
+      hit_sword_34: 802625088
+      hit_sword_47: -83355667
+      hit_sword_52: -1887503984
+      hit_sword_11: -484888631
+      hit_sword_16: 219655118
+      hit_sword_8: -1160832860
+      hit_sword_31: 1700294395
+      hit_sword_15: 469939867
+      hit_sword_58: 2137945127
+      hit_sword_1: 64368795
+      hit_sword_19: -2060338883
+      hit_sword_10: -1178690288
+      hit_sword_44: -955889213
+      hit_sword_24: 1368834115
+      hit_sword_32: 909999683
+      hit_sword_5: 1955925425
+      hit_sword_42: -1147936481
+      hit_sword_4: -940877017
+      hit_sword_48: 1624252499
+      hit_sword_6: 1219971926
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

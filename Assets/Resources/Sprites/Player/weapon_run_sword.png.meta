@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,190 +129,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_sword_0
+      name: weapon_run_sword_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88b2058d774539143963da28b9140c27
-      internalID: 987593883
+      spriteID: 8bbd2f5ef5e39484da80bbde1ccd1bad
+      internalID: 1988079167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_1
+      name: weapon_run_sword_1
       rect:
         serializedVersion: 2
         x: 447
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12584206ba648f94ea9efa0818ed976e
-      internalID: -437429663
+      spriteID: 35630a058ba84e34b8407adbc7b9aa05
+      internalID: -997690796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_2
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 055aea0e859abd24cac6b8fee0de4738
-      internalID: 1715786810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_3
+      name: weapon_run_sword_2
       rect:
         serializedVersion: 2
         x: 1341
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd575701ed5e344fb426043e822b818
-      internalID: 1151175700
+      spriteID: 1b0a438b1feef7b439d3355e61f5fef4
+      internalID: -1735267627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_4
+      name: weapon_run_sword_3
       rect:
         serializedVersion: 2
         x: 1788
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71d61d01ca177ad44a6bfb14dccc5d54
-      internalID: 1006860606
+      spriteID: 588afaa784af1764494ba4d10fb86463
+      internalID: 1799742621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_5
-      rect:
-        serializedVersion: 2
-        x: 2235
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fae9a06aa436d1f41af8881e7ddf33ac
-      internalID: -929585293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_6
-      rect:
-        serializedVersion: 2
-        x: 2682
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc8171651a3b2244a9ab9a8e2fa2dc2
-      internalID: 1973119083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_7
-      rect:
-        serializedVersion: 2
-        x: 3129
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72cedc789f8f98e4eab66e944b4f4d91
-      internalID: 875052560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_8
+      name: weapon_run_sword_4
       rect:
         serializedVersion: 2
         x: 3576
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9525af631710a84b9babf73a1eb3999
-      internalID: 1411275986
+      spriteID: 51246269b78afc9468df3028f8bc7526
+      internalID: 169687963
       vertices: []
       indices: 
       edges: []
@@ -328,15 +244,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idle_sword_0: 987593883
-      idle_sword_2: 1715786810
-      idle_sword_1: -437429663
-      idle_sword_4: 1006860606
-      idle_sword_5: -929585293
-      idle_sword_7: 875052560
-      idle_sword_3: 1151175700
-      idle_sword_6: 1973119083
-      idle_sword_8: 1411275986
+      weapon_run_sword_0: 1988079167
+      weapon_run_sword_2: -1735267627
+      weapon_run_sword_4: 169687963
+      weapon_run_sword_3: 1799742621
+      weapon_run_sword_1: -997690796
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

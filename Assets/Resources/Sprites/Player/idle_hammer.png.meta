@@ -519,7 +519,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: idle_hammer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -527,20 +527,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d55ed543f8490a70800000000000000
-      internalID: 8793639957104055765
+      spriteID: a85bd086883efcf4db81d06e106fe321
+      internalID: -1416395726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: idle_hammer_1
       rect:
         serializedVersion: 2
         x: 360
@@ -548,20 +548,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 103de827293c17450800000000000000
-      internalID: 6084859605308855041
+      spriteID: 2a571352e8f984849ab112dac707ae45
+      internalID: 606845909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: idle_hammer_2
       rect:
         serializedVersion: 2
         x: 720
@@ -569,20 +569,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30c6f3402f456770800000000000000
-      internalID: 8603369663158992956
+      spriteID: 82ff66770cec08444bbe7929b65343a3
+      internalID: -946995577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: idle_hammer_3
       rect:
         serializedVersion: 2
         x: 1080
@@ -590,20 +590,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a90b6cc3d280ea0800000000000000
-      internalID: -5906421172241655209
+      spriteID: 136f6262d5bb13040a16fb524b44f59c
+      internalID: -1617508044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: idle_hammer_4
       rect:
         serializedVersion: 2
         x: 1440
@@ -611,20 +611,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c70460ff3c2a2f40800000000000000
-      internalID: 5704420531145803721
+      spriteID: d00f07e8a2909114db072799ed478f71
+      internalID: -1377872500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_5
+      name: idle_hammer_5
       rect:
         serializedVersion: 2
         x: 1800
@@ -632,20 +632,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a21d340f8100fdf0800000000000000
-      internalID: -148617073940163930
+      spriteID: a8250de934908554d9d3a229e513e81c
+      internalID: -167141042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: idle_hammer_6
       rect:
         serializedVersion: 2
         x: 2160
@@ -653,20 +653,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7a79719cfe2a140800000000000000
-      internalID: 4729606205655721961
+      spriteID: 07bfea4c685f48549bb6daaa92f5ab47
+      internalID: -2077802766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_7
+      name: idle_hammer_7
       rect:
         serializedVersion: 2
         x: 2520
@@ -674,20 +674,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56cdbd6c2ac833e0800000000000000
-      internalID: -2073685336235588006
+      spriteID: 4e13ca65f0b5eb240892945d47af21e1
+      internalID: 481160103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_8
+      name: idle_hammer_8
       rect:
         serializedVersion: 2
         x: 2880
@@ -695,20 +695,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a057a02b0dd1700800000000000000
-      internalID: 512795395688303107
+      spriteID: 4bce4e471bb589348bdb828c7b5ed722
+      internalID: 1089762722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_9
+      name: idle_hammer_9
       rect:
         serializedVersion: 2
         x: 3240
@@ -716,20 +716,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a31e48e77f7ae40800000000000000
-      internalID: 5667770778836351527
+      spriteID: dc048897d688d9e4286ef8546f88af37
+      internalID: -1018037688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_10
+      name: idle_hammer_10
       rect:
         serializedVersion: 2
         x: 3600
@@ -737,20 +737,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ccd1890efa47be0800000000000000
-      internalID: -1480364998338425778
+      spriteID: afea84306ab575a45b0683d2c98936b7
+      internalID: 164204513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_11
+      name: idle_hammer_11
       rect:
         serializedVersion: 2
         x: 0
@@ -758,20 +758,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce56687d01c0f5df0800000000000000
-      internalID: -189419392851352084
+      spriteID: 595c1d49972321143bbee17ce0d1509d
+      internalID: 1592418353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_12
+      name: idle_hammer_12
       rect:
         serializedVersion: 2
         x: 360
@@ -779,20 +779,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c62592292b64f10800000000000000
-      internalID: 2253685004373748758
+      spriteID: 4c3b11cf5b96a5c4890fdaa117588a5c
+      internalID: -1159574624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_13
+      name: idle_hammer_13
       rect:
         serializedVersion: 2
         x: 720
@@ -800,20 +800,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3599c6f104e1d300800000000000000
-      internalID: 275251749332817211
+      spriteID: afcc5e3c4dbc10248938e466bbcf6d72
+      internalID: -728319099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_14
+      name: idle_hammer_14
       rect:
         serializedVersion: 2
         x: 1080
@@ -821,20 +821,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46aaa4aff91084ad0800000000000000
-      internalID: -2717920588507469212
+      spriteID: 47f8e6f876e4e2643868c1c21a9f2769
+      internalID: 962176757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_15
+      name: idle_hammer_15
       rect:
         serializedVersion: 2
         x: 1440
@@ -842,20 +842,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb088c378331d13f0800000000000000
-      internalID: -928564814986837825
+      spriteID: 910f8e1c4d3ece44b99d7beac1fcb529
+      internalID: -445918702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_16
+      name: idle_hammer_16
       rect:
         serializedVersion: 2
         x: 1800
@@ -863,20 +863,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c656580d74a8e00800000000000000
-      internalID: 1047728824233847905
+      spriteID: 6800c1bdcfb29b0459f377db7b132795
+      internalID: 1001080740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_17
+      name: idle_hammer_17
       rect:
         serializedVersion: 2
         x: 2160
@@ -884,20 +884,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 202b72dcd3e40b8f0800000000000000
-      internalID: -526835129060445694
+      spriteID: 354c13ff3e2be07488b4bab5222c0a17
+      internalID: -1949230722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_18
+      name: idle_hammer_18
       rect:
         serializedVersion: 2
         x: 2520
@@ -905,20 +905,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5343bcf105ab3d150800000000000000
-      internalID: 5896261190451672117
+      spriteID: 6ff3d1cd4cf165d48985c86760e412bc
+      internalID: -806369308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_19
+      name: idle_hammer_19
       rect:
         serializedVersion: 2
         x: 2880
@@ -926,20 +926,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e57ae59bc1f6b6d80800000000000000
-      internalID: -8256383322693916834
+      spriteID: b7a3366a3def00c4da979a0af2b8573f
+      internalID: 756044594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_20
+      name: idle_hammer_20
       rect:
         serializedVersion: 2
         x: 3240
@@ -947,20 +947,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116138805aff74b80800000000000000
-      internalID: -8410472694813616623
+      spriteID: 679b3658afeaec041bcb70e010a88c10
+      internalID: -1415981248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_21
+      name: idle_hammer_21
       rect:
         serializedVersion: 2
         x: 3600
@@ -968,20 +968,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6d420ec9f944dc0800000000000000
-      internalID: -3655621501393774895
+      spriteID: c15de4cac682e3141bb7b2490217175c
+      internalID: -2051492771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_22
+      name: idle_hammer_22
       rect:
         serializedVersion: 2
         x: 0
@@ -989,20 +989,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76ea19b6e2219c3d0800000000000000
-      internalID: -3185995270805410201
+      spriteID: 5c8f7a0959f86c84bb45048ad2c73cda
+      internalID: 1732915486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_23
+      name: idle_hammer_23
       rect:
         serializedVersion: 2
         x: 360
@@ -1010,20 +1010,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08bd8b809c54618a0800000000000000
-      internalID: -6334799096112948352
+      spriteID: 84f5f33f0d9c0c94d8ea5dd4806caa4b
+      internalID: 780690457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_24
+      name: idle_hammer_24
       rect:
         serializedVersion: 2
         x: 720
@@ -1031,20 +1031,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba02d8df64c4162e0800000000000000
-      internalID: -2134340880611598165
+      spriteID: c1b839f089be9a0428aa078eb6e98dd9
+      internalID: -1758403643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_25
+      name: idle_hammer_25
       rect:
         serializedVersion: 2
         x: 1080
@@ -1052,20 +1052,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c06fb7482743322e0800000000000000
-      internalID: -2151818530499332596
+      spriteID: 1e30e06d07bb60f4abc758d37198b937
+      internalID: 58519664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_26
+      name: idle_hammer_26
       rect:
         serializedVersion: 2
         x: 1440
@@ -1073,20 +1073,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1484a86a65975a20800000000000000
-      internalID: 3051071556821484571
+      spriteID: 387ee00fbe518d146baa0d28dd6f925d
+      internalID: 109238591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_27
+      name: idle_hammer_27
       rect:
         serializedVersion: 2
         x: 1800
@@ -1094,20 +1094,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9884e628bda0d0b0800000000000000
-      internalID: -5705869721440319331
+      spriteID: 56ea5f0d64ebc1945920c0d9927535c5
+      internalID: -1082025217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_28
+      name: idle_hammer_28
       rect:
         serializedVersion: 2
         x: 2160
@@ -1115,20 +1115,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2319d8d47a0dc7360800000000000000
-      internalID: 7168834123846226226
+      spriteID: 18cc650b3121b2f478b2ba5ca42baa24
+      internalID: -1118425401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_29
+      name: idle_hammer_29
       rect:
         serializedVersion: 2
         x: 2520
@@ -1136,20 +1136,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e375b91a6d8fd09b0800000000000000
-      internalID: -5112156401277642946
+      spriteID: 7bd49d4852c8b56439c176e93b693413
+      internalID: -1663182350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_30
+      name: idle_hammer_30
       rect:
         serializedVersion: 2
         x: 2880
@@ -1157,20 +1157,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d10c4222774cfebb0800000000000000
-      internalID: -4904485453230194659
+      spriteID: a156a6eb612644f4db1ef9c9a003a279
+      internalID: 1601891519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_31
+      name: idle_hammer_31
       rect:
         serializedVersion: 2
         x: 3240
@@ -1178,20 +1178,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d83082d9a105ec00800000000000000
-      internalID: 929150727014594773
+      spriteID: 938f8f8ffb95a0747b92174723fd9907
+      internalID: -2090849581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_32
+      name: idle_hammer_32
       rect:
         serializedVersion: 2
         x: 3600
@@ -1199,20 +1199,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1b679b0863b18480800000000000000
-      internalID: -8898634129254946022
+      spriteID: b7b1857c323a04849b9d06bebc09c8cf
+      internalID: 1840408858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_33
+      name: idle_hammer_33
       rect:
         serializedVersion: 2
         x: 0
@@ -1220,20 +1220,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e82e8d7330bf52ae0800000000000000
-      internalID: -1574576503455686002
+      spriteID: b7f78ae91c06b9a438b6572abad875fa
+      internalID: 1888780170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_34
+      name: idle_hammer_34
       rect:
         serializedVersion: 2
         x: 360
@@ -1241,20 +1241,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b3750c0e5ed5850800000000000000
-      internalID: 6367498201634126667
+      spriteID: f1d20a4abe74468468aee415867be348
+      internalID: -985317906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_35
+      name: idle_hammer_35
       rect:
         serializedVersion: 2
         x: 720
@@ -1262,20 +1262,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8063a22c01afb90800000000000000
-      internalID: -7207429827535173402
+      spriteID: 4982d2acba93db548b00f1605aafa8a3
+      internalID: -1595026502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_36
+      name: idle_hammer_36
       rect:
         serializedVersion: 2
         x: 1080
@@ -1283,20 +1283,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d53fd7abe996bfd80800000000000000
-      internalID: -8215856964752772259
+      spriteID: f942308026d96ae4093bda00b1b8367a
+      internalID: 1654978514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_37
+      name: idle_hammer_37
       rect:
         serializedVersion: 2
         x: 1440
@@ -1304,20 +1304,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2d41f664ae13a0a0800000000000000
-      internalID: -6871614914986685141
+      spriteID: 60df075cb74f079449e079e11fb9e28c
+      internalID: -750027248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_38
+      name: idle_hammer_38
       rect:
         serializedVersion: 2
         x: 1800
@@ -1325,20 +1325,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef886f2a90226700800000000000000
-      internalID: 532023552575573989
+      spriteID: 937b723edcfba9c46aacae0b15d94fd4
+      internalID: 316908551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_39
+      name: idle_hammer_39
       rect:
         serializedVersion: 2
         x: 2160
@@ -1346,20 +1346,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89992264c68009fc0800000000000000
-      internalID: -3490280450085971560
+      spriteID: d32737e76d0f0a04387ac8ed7a5bf684
+      internalID: 436659367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_40
+      name: idle_hammer_40
       rect:
         serializedVersion: 2
         x: 2520
@@ -1367,20 +1367,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5d38e5e77f854920800000000000000
-      internalID: 2973940874069163354
+      spriteID: 0ad71e2f696df424abc46419d5e873d8
+      internalID: 1121927145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_41
+      name: idle_hammer_41
       rect:
         serializedVersion: 2
         x: 2880
@@ -1388,20 +1388,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2fd17550173cec0800000000000000
-      internalID: -3547867813687463170
+      spriteID: fd1c87d62d182d148baffa50d123eaef
+      internalID: 216994348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_42
+      name: idle_hammer_42
       rect:
         serializedVersion: 2
         x: 3240
@@ -1409,20 +1409,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd66aa0c3da454530800000000000000
-      internalID: 3838556530734163676
+      spriteID: 1b1b2c1135892604ea2be877388a3667
+      internalID: -1613797349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_43
+      name: idle_hammer_43
       rect:
         serializedVersion: 2
         x: 3600
@@ -1430,20 +1430,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e21bb69a830f2be0800000000000000
-      internalID: -1499976257121873182
+      spriteID: 16d284cb188ffce4cbd7f4f017fa9fd3
+      internalID: -1736484047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_44
+      name: idle_hammer_44
       rect:
         serializedVersion: 2
         x: 0
@@ -1451,20 +1451,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151ab8dee6dd75200800000000000000
-      internalID: 168846979551174993
+      spriteID: 79dc5ad125a12bf4e9922d8ae4464689
+      internalID: 119866417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_45
+      name: idle_hammer_45
       rect:
         serializedVersion: 2
         x: 360
@@ -1472,20 +1472,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d765c7b71d26a910800000000000000
-      internalID: 1848214276972832728
+      spriteID: 4e4cbd6d7d77ff44cac1504e5f59f47a
+      internalID: 1394055354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_46
+      name: idle_hammer_46
       rect:
         serializedVersion: 2
         x: 720
@@ -1493,20 +1493,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a15400141b684b0800000000000000
-      internalID: -5438464607267775908
+      spriteID: d69f220e3fc7db84ab49d1b8aaf6d34b
+      internalID: -1578844478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_47
+      name: idle_hammer_47
       rect:
         serializedVersion: 2
         x: 1080
@@ -1514,20 +1514,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2346dfa1b5a4df1e0800000000000000
-      internalID: -2162490490912676814
+      spriteID: 6e03bb12d37fe0742811f6b4aa613332
+      internalID: 560145115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_48
+      name: idle_hammer_48
       rect:
         serializedVersion: 2
         x: 1440
@@ -1535,20 +1535,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd51ddf74dbfb67d0800000000000000
-      internalID: -2923966642950171172
+      spriteID: c1905cfc2ae63684c93c06c2f1858c08
+      internalID: 1096069373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_49
+      name: idle_hammer_49
       rect:
         serializedVersion: 2
         x: 1800
@@ -1556,20 +1556,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 524e72cecb01ac4c0800000000000000
-      internalID: -4266579293378190299
+      spriteID: 01ce615154ea58244baf33c96167d9b4
+      internalID: -591154953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_50
+      name: idle_hammer_50
       rect:
         serializedVersion: 2
         x: 2160
@@ -1577,20 +1577,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6597f18ee24e1bbd0800000000000000
-      internalID: -2616059018411542186
+      spriteID: aca1b81e47ed5514db7fdab9a7093f3d
+      internalID: -929780771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_51
+      name: idle_hammer_51
       rect:
         serializedVersion: 2
         x: 2520
@@ -1598,20 +1598,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31188a4ff3c8d9c70800000000000000
-      internalID: 8979487438362149139
+      spriteID: 3d196b4e3be55144c9a2b70d03cc1039
+      internalID: -698626504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_52
+      name: idle_hammer_52
       rect:
         serializedVersion: 2
         x: 2880
@@ -1619,20 +1619,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 903d148d6f32cab00800000000000000
-      internalID: 841086773508559625
+      spriteID: d496d46b74b6d8949b0d84bc5404dd46
+      internalID: 1433869542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_53
+      name: idle_hammer_53
       rect:
         serializedVersion: 2
         x: 3240
@@ -1640,20 +1640,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b264078a62fdc37b0800000000000000
-      internalID: -5243070509038418389
+      spriteID: 1eecd1787fbc11c4daee97ce94bfa5ad
+      internalID: -408172230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_54
+      name: idle_hammer_54
       rect:
         serializedVersion: 2
         x: 3600
@@ -1661,20 +1661,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bcb7e17839ed1f90800000000000000
-      internalID: -6981167418715947851
+      spriteID: 8322752d0c1865c498172620f2b59174
+      internalID: -925552046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_55
+      name: idle_hammer_55
       rect:
         serializedVersion: 2
         x: 0
@@ -1682,20 +1682,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1381b0d6ec5dfcf70800000000000000
-      internalID: 9209814845565376561
+      spriteID: 0b6207aab7f80714caaa3e64a2a34f7a
+      internalID: -69802387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_56
+      name: idle_hammer_56
       rect:
         serializedVersion: 2
         x: 360
@@ -1703,20 +1703,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c2552b0066d407d0800000000000000
-      internalID: -2952999747656002874
+      spriteID: 0e1a7d803b1dbd7418c46f1a3d7fe83d
+      internalID: -1623364115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_57
+      name: idle_hammer_57
       rect:
         serializedVersion: 2
         x: 720
@@ -1724,20 +1724,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bdda31a82343b870800000000000000
-      internalID: 8697369147165302195
+      spriteID: b752fe47bc9cc4f429d4f6dc865f6673
+      internalID: -125495402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_58
+      name: idle_hammer_58
       rect:
         serializedVersion: 2
         x: 1080
@@ -1745,20 +1745,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 501371aefab8ce380800000000000000
-      internalID: -8940617572574351099
+      spriteID: e8b2b98a4cec3fc4099105d32b08c159
+      internalID: 142622624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_59
+      name: idle_hammer_59
       rect:
         serializedVersion: 2
         x: 1440
@@ -1766,20 +1766,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 765c3de7fde5b2700800000000000000
-      internalID: 516610896262579559
+      spriteID: 9a7d01c079777f24eb6416ba7b94cd6b
+      internalID: 947887459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_60
+      name: idle_hammer_60
       rect:
         serializedVersion: 2
         x: 1800
@@ -1787,20 +1787,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6b1abd832f094f10800000000000000
-      internalID: 2254349733851700077
+      spriteID: ddb092a84ff630c4b8f77a81d7125be3
+      internalID: -579859193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_61
+      name: idle_hammer_61
       rect:
         serializedVersion: 2
         x: 2160
@@ -1808,20 +1808,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2947ec17ba30c2d0800000000000000
-      internalID: -3260541572077893329
+      spriteID: 0615aa4ce730d944f825bb7d6efeb284
+      internalID: -1084657005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_62
+      name: idle_hammer_62
       rect:
         serializedVersion: 2
         x: 2520
@@ -1829,14 +1829,14 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.12}
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67cd52b0d60e632d0800000000000000
-      internalID: -3299202918059221898
+      spriteID: f9cf48ec1a89eea428e0961f4a5e76a6
+      internalID: -1131230004
       vertices: []
       indices: 
       edges: []
@@ -1852,69 +1852,69 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idle_46: -5438464607267775908
-      idle_38: 532023552575573989
-      idle_33: -1574576503455686002
-      idle_53: -5243070509038418389
-      idle_59: 516610896262579559
-      idle_54: -6981167418715947851
-      idle_17: -526835129060445694
-      idle_30: -4904485453230194659
-      idle_11: -189419392851352084
-      idle_3: -5906421172241655209
-      idle_31: 929150727014594773
-      idle_0: 8793639957104055765
-      idle_1: 6084859605308855041
-      idle_13: 275251749332817211
-      idle_8: 512795395688303107
-      idle_62: -3299202918059221898
-      idle_36: -8215856964752772259
-      idle_14: -2717920588507469212
-      idle_7: -2073685336235588006
-      idle_2: 8603369663158992956
-      idle_58: -8940617572574351099
-      idle_16: 1047728824233847905
-      idle_21: -3655621501393774895
-      idle_10: -1480364998338425778
-      idle_48: -2923966642950171172
-      idle_61: -3260541572077893329
-      idle_50: -2616059018411542186
-      idle_41: -3547867813687463170
-      idle_56: -2952999747656002874
-      idle_4: 5704420531145803721
-      idle_57: 8697369147165302195
-      idle_52: 841086773508559625
-      idle_37: -6871614914986685141
-      idle_20: -8410472694813616623
-      idle_34: 6367498201634126667
-      idle_15: -928564814986837825
-      idle_43: -1499976257121873182
-      idle_47: -2162490490912676814
-      idle_45: 1848214276972832728
-      idle_39: -3490280450085971560
-      idle_55: 9209814845565376561
-      idle_6: 4729606205655721961
-      idle_19: -8256383322693916834
-      idle_27: -5705869721440319331
-      idle_40: 2973940874069163354
-      idle_49: -4266579293378190299
-      idle_24: -2134340880611598165
-      idle_60: 2254349733851700077
-      idle_28: 7168834123846226226
-      idle_5: -148617073940163930
-      idle_51: 8979487438362149139
-      idle_12: 2253685004373748758
-      idle_23: -6334799096112948352
-      idle_32: -8898634129254946022
-      idle_29: -5112156401277642946
-      idle_9: 5667770778836351527
-      idle_35: -7207429827535173402
-      idle_25: -2151818530499332596
-      idle_42: 3838556530734163676
-      idle_18: 5896261190451672117
-      idle_22: -3185995270805410201
-      idle_26: 3051071556821484571
-      idle_44: 168846979551174993
+      idle_hammer_57: -125495402
+      idle_hammer_39: 436659367
+      idle_hammer_60: -579859193
+      idle_hammer_53: -408172230
+      idle_hammer_27: -1082025217
+      idle_hammer_61: -1084657005
+      idle_hammer_40: 1121927145
+      idle_hammer_47: 560145115
+      idle_hammer_20: -1415981248
+      idle_hammer_55: -69802387
+      idle_hammer_51: -698626504
+      idle_hammer_22: 1732915486
+      idle_hammer_4: -1377872500
+      idle_hammer_42: -1613797349
+      idle_hammer_54: -925552046
+      idle_hammer_37: -750027248
+      idle_hammer_17: -1949230722
+      idle_hammer_32: 1840408858
+      idle_hammer_46: -1578844478
+      idle_hammer_38: 316908551
+      idle_hammer_48: 1096069373
+      idle_hammer_1: 606845909
+      idle_hammer_9: -1018037688
+      idle_hammer_36: 1654978514
+      idle_hammer_16: 1001080740
+      idle_hammer_10: 164204513
+      idle_hammer_49: -591154953
+      idle_hammer_56: -1623364115
+      idle_hammer_14: 962176757
+      idle_hammer_34: -985317906
+      idle_hammer_6: -2077802766
+      idle_hammer_52: 1433869542
+      idle_hammer_45: 1394055354
+      idle_hammer_11: 1592418353
+      idle_hammer_58: 142622624
+      idle_hammer_24: -1758403643
+      idle_hammer_35: -1595026502
+      idle_hammer_2: -946995577
+      idle_hammer_15: -445918702
+      idle_hammer_30: 1601891519
+      idle_hammer_0: -1416395726
+      idle_hammer_44: 119866417
+      idle_hammer_12: -1159574624
+      idle_hammer_50: -929780771
+      idle_hammer_28: -1118425401
+      idle_hammer_5: -167141042
+      idle_hammer_19: 756044594
+      idle_hammer_31: -2090849581
+      idle_hammer_8: 1089762722
+      idle_hammer_23: 780690457
+      idle_hammer_29: -1663182350
+      idle_hammer_18: -806369308
+      idle_hammer_59: 947887459
+      idle_hammer_3: -1617508044
+      idle_hammer_41: 216994348
+      idle_hammer_7: 481160103
+      idle_hammer_62: -1131230004
+      idle_hammer_26: 109238591
+      idle_hammer_21: -2051492771
+      idle_hammer_13: -728319099
+      idle_hammer_25: 58519664
+      idle_hammer_43: -1736484047
+      idle_hammer_33: 1888780170
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hit_hammer_0
+      name: weapon_hit_hammer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,20 +137,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1bf2bb61ad555b40a914c6586a91724
-      internalID: 1894569053
+      spriteID: a52cea3b1e82a514da62876c45806acb
+      internalID: 327619814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_1
+      name: weapon_hit_hammer_1
       rect:
         serializedVersion: 2
         x: 448
@@ -158,20 +158,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107e441cb7d38fd40a30d024de83e4eb
-      internalID: -625904213
+      spriteID: 1c0ef5a30cb8401419bfe7ec1a3664eb
+      internalID: 1637277817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_2
+      name: weapon_hit_hammer_2
       rect:
         serializedVersion: 2
         x: 896
@@ -179,20 +179,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305537224f106534a922372316f0f9fd
-      internalID: 975404200
+      spriteID: 4eb6a935338630140bc5579a3cb963d4
+      internalID: 1772804492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_3
+      name: weapon_hit_hammer_3
       rect:
         serializedVersion: 2
         x: 1344
@@ -200,20 +200,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d6876427eb5385468e47cacb69eff70
-      internalID: -594005831
+      spriteID: eced5a96d808bdc40bcfda50e9bdd592
+      internalID: 337482845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_4
+      name: weapon_hit_hammer_4
       rect:
         serializedVersion: 2
         x: 1792
@@ -221,20 +221,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b2f0d0617a33bd49876ab55bed3dee6
-      internalID: 391689428
+      spriteID: 2c6fa54b98e518242bf1b026412994ac
+      internalID: -445066027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_5
+      name: weapon_hit_hammer_5
       rect:
         serializedVersion: 2
         x: 2240
@@ -242,20 +242,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68926c8342ff5df4897c9b270088c197
-      internalID: 1836579634
+      spriteID: 8c854f06d505e594da59b6150bd494d8
+      internalID: -930068836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_6
+      name: weapon_hit_hammer_6
       rect:
         serializedVersion: 2
         x: 2688
@@ -263,20 +263,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 719203c982db9d64a9f2bbdd7a1b1bcf
-      internalID: 1688690110
+      spriteID: 28b156621ebc5a649a3b148e7d7dda9a
+      internalID: -99125303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_7
+      name: weapon_hit_hammer_7
       rect:
         serializedVersion: 2
         x: 3136
@@ -284,20 +284,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03a7b737d943ceb40aca1cfb9f88e01c
-      internalID: 1026340460
+      spriteID: bedca25f9485e684d8b894f6a2479864
+      internalID: 1382487469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_8
+      name: weapon_hit_hammer_8
       rect:
         serializedVersion: 2
         x: 3584
@@ -305,20 +305,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6184f37e65971044a2fe7f1b24948e2
-      internalID: 435920578
+      spriteID: 152d2b9e130ff06448669bc5ecb1d271
+      internalID: 1450759702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_9
+      name: weapon_hit_hammer_9
       rect:
         serializedVersion: 2
         x: 0
@@ -326,20 +326,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0d735becb697e04e94479e502dd595e
-      internalID: 67048873
+      spriteID: fce0173f19c85fc4397c81651dd0acdf
+      internalID: -1055212044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_10
+      name: weapon_hit_hammer_10
       rect:
         serializedVersion: 2
         x: 448
@@ -347,20 +347,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5f19200ad97344469a217a06679deee
-      internalID: -1801141714
+      spriteID: 21438bb7b2e1d8644804995514ad0f97
+      internalID: 1261843956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_11
+      name: weapon_hit_hammer_11
       rect:
         serializedVersion: 2
         x: 896
@@ -368,20 +368,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56e9d28c90945d489756df0c63ea0f9
-      internalID: 297308767
+      spriteID: fd1081664f7b4db45b45287a3529a8c1
+      internalID: -843941339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_12
+      name: weapon_hit_hammer_12
       rect:
         serializedVersion: 2
         x: 1344
@@ -389,20 +389,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1541796086353a64888681fcfb361305
-      internalID: -1340258534
+      spriteID: ff4d9907287a91347ac7606f4300dd8b
+      internalID: 1781331302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_13
+      name: weapon_hit_hammer_13
       rect:
         serializedVersion: 2
         x: 1792
@@ -410,20 +410,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ebec5687f902e1479613bb7bec14278
-      internalID: 1212538530
+      spriteID: ba1046367a9b1e84cb4142688d1c98ce
+      internalID: -2061242724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_14
+      name: weapon_hit_hammer_14
       rect:
         serializedVersion: 2
         x: 2240
@@ -431,20 +431,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a32d8d079d539c64fad2358302397243
-      internalID: 2009487904
+      spriteID: 4afb8e45ce489fb4cb35bf29439a34f4
+      internalID: -1620741216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_15
+      name: weapon_hit_hammer_15
       rect:
         serializedVersion: 2
         x: 2688
@@ -452,20 +452,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16acdd8c9042e7846930427f8e7332d0
-      internalID: 1993730674
+      spriteID: 23bbd6c19080ac544ac8f0d4db2e5592
+      internalID: -1478786918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_16
+      name: weapon_hit_hammer_16
       rect:
         serializedVersion: 2
         x: 3136
@@ -473,20 +473,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6edb1870eea34c44b2c7b8bc2ae9c83
-      internalID: 1008892711
+      spriteID: cf862c3b69f09544c9dc462f1d2add13
+      internalID: 1043661927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_17
+      name: weapon_hit_hammer_17
       rect:
         serializedVersion: 2
         x: 3584
@@ -494,20 +494,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01340aecfd44fd64f883ec70c94fcf96
-      internalID: 1232103104
+      spriteID: e6ada325f79c9254ab98249ba297f804
+      internalID: 1481920649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_18
+      name: weapon_hit_hammer_18
       rect:
         serializedVersion: 2
         x: 0
@@ -515,20 +515,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20314dcd85731de41bb6f0828822344a
-      internalID: -930815257
+      spriteID: 644b8c6b34d234d4aaa0c541fb21a8fe
+      internalID: 527368536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_19
+      name: weapon_hit_hammer_19
       rect:
         serializedVersion: 2
         x: 448
@@ -536,20 +536,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31145a9b3378eb647b8e1639fc73d236
-      internalID: -884459608
+      spriteID: fa09d0878ec3fa543947c457433ae9d4
+      internalID: 1361833560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_20
+      name: weapon_hit_hammer_20
       rect:
         serializedVersion: 2
         x: 896
@@ -557,20 +557,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 940faccbbdf943a498356d040ef3ec54
-      internalID: 1647826291
+      spriteID: d33b40dd765865e419e8fda210b7a3a7
+      internalID: 1882192010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_21
+      name: weapon_hit_hammer_21
       rect:
         serializedVersion: 2
         x: 1344
@@ -578,20 +578,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2429b42e1c3996c4589518d4aa0f753d
-      internalID: 1646098616
+      spriteID: 4bf7117b510211841ac9842d2ad1cf90
+      internalID: -2141104626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_22
+      name: weapon_hit_hammer_22
       rect:
         serializedVersion: 2
         x: 1792
@@ -599,20 +599,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b08ee60254cba4481c0d35dd99dbf0
-      internalID: -1631452738
+      spriteID: f4315aeec2a73ea40aae1bc6995007ed
+      internalID: 1340413950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_23
+      name: weapon_hit_hammer_23
       rect:
         serializedVersion: 2
         x: 2240
@@ -620,20 +620,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d48066152a35c3f43881ebaa844ad90a
-      internalID: -41234540
+      spriteID: 805fe8fba24dfa442b9e487ce91ac849
+      internalID: -2123960234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_24
+      name: weapon_hit_hammer_24
       rect:
         serializedVersion: 2
         x: 2688
@@ -641,20 +641,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7b1b0e989da82442a3446128c84e70c
-      internalID: -1850774805
+      spriteID: a1bbdd795422cff458146926a89b080d
+      internalID: -343633444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_25
+      name: weapon_hit_hammer_25
       rect:
         serializedVersion: 2
         x: 3136
@@ -662,20 +662,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e75840b172b9a034eb9360c5b774c9a3
-      internalID: 1029009196
+      spriteID: b83de3aa455284848af821cf239b1afb
+      internalID: -1881454727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_26
+      name: weapon_hit_hammer_26
       rect:
         serializedVersion: 2
         x: 3584
@@ -683,20 +683,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b44f832fd192f43bc79831e6e93b7c
-      internalID: 1652637483
+      spriteID: 9e296128bc8f4f74bb72e07df88c9ef5
+      internalID: 542606486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_27
+      name: weapon_hit_hammer_27
       rect:
         serializedVersion: 2
         x: 0
@@ -704,20 +704,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed32215267fdd214f86164cc4105f468
-      internalID: 1335306087
+      spriteID: 46bd641e14e13bc4a94fe5244f80510d
+      internalID: -1919339589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_28
+      name: weapon_hit_hammer_28
       rect:
         serializedVersion: 2
         x: 448
@@ -725,20 +725,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f33cd2a988daa954b9684e0e0631f9d0
-      internalID: 1913946356
+      spriteID: fd476f3a7160b2841bfa2d0048abdf8c
+      internalID: -1435352443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_29
+      name: weapon_hit_hammer_29
       rect:
         serializedVersion: 2
         x: 896
@@ -746,20 +746,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a20dc6358005249a813d4700df9bd6
-      internalID: -1438166605
+      spriteID: 305ab5b63b697ca45aa861702a92f10c
+      internalID: 1403776015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_30
+      name: weapon_hit_hammer_30
       rect:
         serializedVersion: 2
         x: 1344
@@ -767,20 +767,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84ba1e62d332ba04f8aac61a087ce2c7
-      internalID: -1590603642
+      spriteID: e3c050d1e8b5c614589fbc993ce518df
+      internalID: 1457732842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_31
+      name: weapon_hit_hammer_31
       rect:
         serializedVersion: 2
         x: 1792
@@ -788,20 +788,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d14078a6fe60004f8fb992df497e89c
-      internalID: 1188717794
+      spriteID: a8c2580b263579542a84f26d7ca42261
+      internalID: 619360669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_32
+      name: weapon_hit_hammer_32
       rect:
         serializedVersion: 2
         x: 2240
@@ -809,20 +809,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 932f2d81eab0d8241968ab5f95a58e6f
-      internalID: -1355473761
+      spriteID: 882206b249499224e9a0b128d3ae2afd
+      internalID: 137913751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_33
+      name: weapon_hit_hammer_33
       rect:
         serializedVersion: 2
         x: 2688
@@ -830,20 +830,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bd35d23e348aec469b484337183f076
-      internalID: -768762801
+      spriteID: 4d3cc3c355eeb8b40ba5da88ccd02d4e
+      internalID: 616937925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_34
+      name: weapon_hit_hammer_34
       rect:
         serializedVersion: 2
         x: 3136
@@ -851,20 +851,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5929ef3dfd6b334fb39d6fa10716bdb
-      internalID: 279029997
+      spriteID: ea35dd13cafd3d1429fcc70b66219bb2
+      internalID: -325993146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_35
+      name: weapon_hit_hammer_35
       rect:
         serializedVersion: 2
         x: 3584
@@ -872,20 +872,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f80081411a1d3ad4f8dd1ddc1e5fba6c
-      internalID: 1972584080
+      spriteID: 2e739ff984c45114aa0c54c0b48a3895
+      internalID: 1914286059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_36
+      name: weapon_hit_hammer_36
       rect:
         serializedVersion: 2
         x: 0
@@ -893,20 +893,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf0fe8ae64c4ac440b7c3e3728c704cc
-      internalID: 1066985235
+      spriteID: bc552ce29067e8a4abad11c6cb4ae709
+      internalID: 410472856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_37
+      name: weapon_hit_hammer_37
       rect:
         serializedVersion: 2
         x: 448
@@ -914,20 +914,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f08fee66bfef34f810993b25a0f134
-      internalID: 1427161190
+      spriteID: 47956e0118b41d842b486dcff012d5c2
+      internalID: 1978272120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_38
+      name: weapon_hit_hammer_38
       rect:
         serializedVersion: 2
         x: 896
@@ -935,20 +935,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 142b440b483c20b42ba7a143110a537d
-      internalID: -149212854
+      spriteID: 64b868636356611499cb2de385066093
+      internalID: 911007253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_39
+      name: weapon_hit_hammer_39
       rect:
         serializedVersion: 2
         x: 1344
@@ -956,20 +956,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b337ed99c7dbed440992f2b22f9c3970
-      internalID: -1218501959
+      spriteID: 809de940bc8361a49b6a00580474e40e
+      internalID: 1551485222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_40
+      name: weapon_hit_hammer_40
       rect:
         serializedVersion: 2
         x: 1792
@@ -977,20 +977,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4a703f5b5e197b4abbecf5b984a83a3
-      internalID: 1473141203
+      spriteID: a94e085a413631248bed628089bc34c0
+      internalID: -244855898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_41
+      name: weapon_hit_hammer_41
       rect:
         serializedVersion: 2
         x: 2240
@@ -998,20 +998,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be373d4436383fd44b976db6fc17a77d
-      internalID: -682451769
+      spriteID: 249d1883b19c5794ca066ef990b75806
+      internalID: -102267036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_42
+      name: weapon_hit_hammer_42
       rect:
         serializedVersion: 2
         x: 2688
@@ -1019,20 +1019,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71066d42c621f3e4b9640c9148f5cfee
-      internalID: -1369164668
+      spriteID: 83782b5168436aa47b25083d97b68688
+      internalID: -215333820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_43
+      name: weapon_hit_hammer_43
       rect:
         serializedVersion: 2
         x: 3136
@@ -1040,20 +1040,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ab41f7fd4dae8740b87643859c7c237
-      internalID: 401920701
+      spriteID: 70b3b6e0bf880864daa83e2a182de111
+      internalID: -1670485336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_44
+      name: weapon_hit_hammer_44
       rect:
         serializedVersion: 2
         x: 3584
@@ -1061,20 +1061,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d7fb9da8fa97e4db16a1754e094617
-      internalID: 2130869661
+      spriteID: 7fb5d0e7507b04445b6f98f707055601
+      internalID: 1351672023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_45
+      name: weapon_hit_hammer_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1082,20 +1082,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7b465299c88e444580610d4b9137e66
-      internalID: 1704974372
+      spriteID: 4c069c40d101ec0439fecbf3e863f815
+      internalID: 550771840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_46
+      name: weapon_hit_hammer_46
       rect:
         serializedVersion: 2
         x: 448
@@ -1103,20 +1103,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6513f43e708e5de409f9032d18a5ed14
-      internalID: 421487760
+      spriteID: d5c3974c6c1a6c646a2f8c50b6839920
+      internalID: 547360826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_47
+      name: weapon_hit_hammer_47
       rect:
         serializedVersion: 2
         x: 896
@@ -1124,20 +1124,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daea3d6263234cd4087263b6c121aed7
-      internalID: -670360757
+      spriteID: a5d3916705382b640aebe6fde3dbcd50
+      internalID: -1516847348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_48
+      name: weapon_hit_hammer_48
       rect:
         serializedVersion: 2
         x: 1344
@@ -1145,20 +1145,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a95549573d4d006418b826db3a4b9a5f
-      internalID: -498571969
+      spriteID: 140fcedecb75d3c41be4d3110473a7fe
+      internalID: 1175479900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_49
+      name: weapon_hit_hammer_49
       rect:
         serializedVersion: 2
         x: 1792
@@ -1166,20 +1166,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 265f0a94c716c374c92fcd5e36771245
-      internalID: 1636510281
+      spriteID: e1720701c9d809f41a6ab0a014778672
+      internalID: 874347926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_50
+      name: weapon_hit_hammer_50
       rect:
         serializedVersion: 2
         x: 2240
@@ -1187,20 +1187,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878ab407e0b95414f9a0fd03fcbde4bf
-      internalID: 1067043522
+      spriteID: 4c3c902a295105a48a16f15c049f9936
+      internalID: 1953946254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_51
+      name: weapon_hit_hammer_51
       rect:
         serializedVersion: 2
         x: 2688
@@ -1208,20 +1208,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff64248939c1f834ab0fed8e7873e3b0
-      internalID: 52394389
+      spriteID: 188beaee51b110b4cb2eed7e9bd49e55
+      internalID: -1354885363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_52
+      name: weapon_hit_hammer_52
       rect:
         serializedVersion: 2
         x: 3136
@@ -1229,20 +1229,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a086851fd4ac4244cb5f89bd8575bd08
-      internalID: -606602133
+      spriteID: b7d2be7216155b8448008d1408098c87
+      internalID: 816675418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_53
+      name: weapon_hit_hammer_53
       rect:
         serializedVersion: 2
         x: 3584
@@ -1250,20 +1250,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7daa58b2a9f8e624591dd8b8276c12d5
-      internalID: -1852230534
+      spriteID: 32b2d27644cdb694089a74704772e4b8
+      internalID: 861068047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_54
+      name: weapon_hit_hammer_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1271,20 +1271,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12f2665f37c68e4a9ffd58694990c49
-      internalID: 1902468542
+      spriteID: 3808a7fabf1cd0b4282025d06559b301
+      internalID: 1315064704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_55
+      name: weapon_hit_hammer_55
       rect:
         serializedVersion: 2
         x: 448
@@ -1292,20 +1292,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188cb20691334b74299b8eea5f90f7c4
-      internalID: 248943211
+      spriteID: 855eb6eee0355494dbe549dcd7b2ffc2
+      internalID: -1163129190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_56
+      name: weapon_hit_hammer_56
       rect:
         serializedVersion: 2
         x: 896
@@ -1313,20 +1313,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b9b566443f98e49a03cc292d85957f
-      internalID: 700012220
+      spriteID: a11771c0cae9e4d498c8bfba7740d899
+      internalID: 808068180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_57
+      name: weapon_hit_hammer_57
       rect:
         serializedVersion: 2
         x: 1344
@@ -1334,20 +1334,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44c46d9a88d41804e997965d740b3c16
-      internalID: -235529619
+      spriteID: 5aa36e56ae6eede4aa2cd731c403eb96
+      internalID: -1783736915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_58
+      name: weapon_hit_hammer_58
       rect:
         serializedVersion: 2
         x: 1792
@@ -1355,20 +1355,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8cb8fc7867e1f448d205ebf42ba4a4
-      internalID: -5787553
+      spriteID: e5509467a86155445b50d225265e839c
+      internalID: -1000178761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_59
+      name: weapon_hit_hammer_59
       rect:
         serializedVersion: 2
         x: 2240
@@ -1376,20 +1376,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d586617b8ecf0747998741d269965dc
-      internalID: 347002826
+      spriteID: 4b33774751d768d4b8f65e19ba2a0ea7
+      internalID: -451142315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_60
+      name: weapon_hit_hammer_60
       rect:
         serializedVersion: 2
         x: 2688
@@ -1397,20 +1397,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 671727898b8f4164db88a95a5658662b
-      internalID: -291527822
+      spriteID: ab301d11414165e46a117d23300c2120
+      internalID: -336722197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_61
+      name: weapon_hit_hammer_61
       rect:
         serializedVersion: 2
         x: 3136
@@ -1418,20 +1418,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 488b6117eb28d764ab6b7660697d4e3b
-      internalID: 1807020622
+      spriteID: 1586769e15e77a14e8a7516b92ed19f3
+      internalID: 459328643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_62
+      name: weapon_hit_hammer_62
       rect:
         serializedVersion: 2
         x: 3584
@@ -1439,20 +1439,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6190a9f076928384194c6a6ccf4cad3e
-      internalID: -138054312
+      spriteID: b9959b04d67cc71479d412720d583074
+      internalID: 1594653481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_63
+      name: weapon_hit_hammer_63
       rect:
         serializedVersion: 2
         x: 0
@@ -1460,20 +1460,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e45d184d7cac2a6429ddb08b780991c9
-      internalID: 1211506596
+      spriteID: 388735a8b99a8d14194197bbbae4f814
+      internalID: -675436718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_64
+      name: weapon_hit_hammer_64
       rect:
         serializedVersion: 2
         x: 448
@@ -1481,20 +1481,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eab921490d07999448e0681000639f23
-      internalID: 1168100930
+      spriteID: b8da8e1cf6b156b4c8fc02b1c8ecdcda
+      internalID: 240136304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_65
+      name: weapon_hit_hammer_65
       rect:
         serializedVersion: 2
         x: 896
@@ -1502,20 +1502,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213b17010acea6a4983a607a1fb9f1f0
-      internalID: -1049409346
+      spriteID: 2256133f05f9cfa4aa349b735005c62e
+      internalID: -301677907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_66
+      name: weapon_hit_hammer_66
       rect:
         serializedVersion: 2
         x: 1344
@@ -1523,20 +1523,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e19484bee8af444f8ec75a88d203e1a
-      internalID: -375195177
+      spriteID: 92da233845e42a848afbed6bbb15d431
+      internalID: -1521327974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_67
+      name: weapon_hit_hammer_67
       rect:
         serializedVersion: 2
         x: 1792
@@ -1544,20 +1544,20 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d205e3fed340b3040af9bdff0e144a05
-      internalID: -1891412460
+      spriteID: a6f2a06dc497d104eb38e821cf961d27
+      internalID: 1802261556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hit_hammer_68
+      name: weapon_hit_hammer_68
       rect:
         serializedVersion: 2
         x: 2240
@@ -1565,14 +1565,14 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ed5b8799886ec84383a7ef8bdfb9d4d
-      internalID: 1924718510
+      spriteID: 98680f62d09279b4c915e019d2f5734e
+      internalID: -361210983
       vertices: []
       indices: 
       edges: []
@@ -1588,75 +1588,75 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hit_hammer_55: 248943211
-      hit_hammer_46: 421487760
-      hit_hammer_33: -768762801
-      hit_hammer_11: 297308767
-      hit_hammer_23: -41234540
-      hit_hammer_0: 1894569053
-      hit_hammer_29: -1438166605
-      hit_hammer_26: 1652637483
-      hit_hammer_37: 1427161190
-      hit_hammer_39: -1218501959
-      hit_hammer_36: 1066985235
-      hit_hammer_60: -291527822
-      hit_hammer_42: -1369164668
-      hit_hammer_6: 1688690110
-      hit_hammer_2: 975404200
-      hit_hammer_52: -606602133
-      hit_hammer_38: -149212854
-      hit_hammer_51: 52394389
-      hit_hammer_20: 1647826291
-      hit_hammer_57: -235529619
-      hit_hammer_17: 1232103104
-      hit_hammer_30: -1590603642
-      hit_hammer_35: 1972584080
-      hit_hammer_64: 1168100930
-      hit_hammer_3: -594005831
-      hit_hammer_34: 279029997
-      hit_hammer_68: 1924718510
-      hit_hammer_47: -670360757
-      hit_hammer_14: 2009487904
-      hit_hammer_50: 1067043522
-      hit_hammer_54: 1902468542
-      hit_hammer_43: 401920701
-      hit_hammer_5: 1836579634
-      hit_hammer_56: 700012220
-      hit_hammer_44: 2130869661
-      hit_hammer_7: 1026340460
-      hit_hammer_25: 1029009196
-      hit_hammer_24: -1850774805
-      hit_hammer_31: 1188717794
-      hit_hammer_49: 1636510281
-      hit_hammer_61: 1807020622
-      hit_hammer_62: -138054312
-      hit_hammer_65: -1049409346
-      hit_hammer_45: 1704974372
-      hit_hammer_66: -375195177
-      hit_hammer_28: 1913946356
-      hit_hammer_48: -498571969
-      hit_hammer_21: 1646098616
-      hit_hammer_10: -1801141714
-      hit_hammer_58: -5787553
-      hit_hammer_16: 1008892711
-      hit_hammer_59: 347002826
-      hit_hammer_12: -1340258534
-      hit_hammer_15: 1993730674
-      hit_hammer_18: -930815257
-      hit_hammer_19: -884459608
-      hit_hammer_63: 1211506596
-      hit_hammer_9: 67048873
-      hit_hammer_8: 435920578
-      hit_hammer_27: 1335306087
-      hit_hammer_40: 1473141203
-      hit_hammer_22: -1631452738
-      hit_hammer_53: -1852230534
-      hit_hammer_67: -1891412460
-      hit_hammer_1: -625904213
-      hit_hammer_13: 1212538530
-      hit_hammer_4: 391689428
-      hit_hammer_41: -682451769
-      hit_hammer_32: -1355473761
+      weapon_hit_hammer_37: 1978272120
+      weapon_hit_hammer_29: 1403776015
+      weapon_hit_hammer_2: 1772804492
+      weapon_hit_hammer_22: 1340413950
+      weapon_hit_hammer_14: -1620741216
+      weapon_hit_hammer_26: 542606486
+      weapon_hit_hammer_57: -1783736915
+      weapon_hit_hammer_47: -1516847348
+      weapon_hit_hammer_0: 327619814
+      weapon_hit_hammer_54: 1315064704
+      weapon_hit_hammer_62: 1594653481
+      weapon_hit_hammer_40: -244855898
+      weapon_hit_hammer_53: 861068047
+      weapon_hit_hammer_34: -325993146
+      weapon_hit_hammer_48: 1175479900
+      weapon_hit_hammer_65: -301677907
+      weapon_hit_hammer_28: -1435352443
+      weapon_hit_hammer_27: -1919339589
+      weapon_hit_hammer_50: 1953946254
+      weapon_hit_hammer_60: -336722197
+      weapon_hit_hammer_46: 547360826
+      weapon_hit_hammer_49: 874347926
+      weapon_hit_hammer_58: -1000178761
+      weapon_hit_hammer_9: -1055212044
+      weapon_hit_hammer_55: -1163129190
+      weapon_hit_hammer_36: 410472856
+      weapon_hit_hammer_63: -675436718
+      weapon_hit_hammer_61: 459328643
+      weapon_hit_hammer_67: 1802261556
+      weapon_hit_hammer_39: 1551485222
+      weapon_hit_hammer_68: -361210983
+      weapon_hit_hammer_3: 337482845
+      weapon_hit_hammer_4: -445066027
+      weapon_hit_hammer_41: -102267036
+      weapon_hit_hammer_59: -451142315
+      weapon_hit_hammer_5: -930068836
+      weapon_hit_hammer_21: -2141104626
+      weapon_hit_hammer_23: -2123960234
+      weapon_hit_hammer_31: 619360669
+      weapon_hit_hammer_64: 240136304
+      weapon_hit_hammer_51: -1354885363
+      weapon_hit_hammer_6: -99125303
+      weapon_hit_hammer_8: 1450759702
+      weapon_hit_hammer_32: 137913751
+      weapon_hit_hammer_11: -843941339
+      weapon_hit_hammer_7: 1382487469
+      weapon_hit_hammer_35: 1914286059
+      weapon_hit_hammer_17: 1481920649
+      weapon_hit_hammer_20: 1882192010
+      weapon_hit_hammer_1: 1637277817
+      weapon_hit_hammer_10: 1261843956
+      weapon_hit_hammer_44: 1351672023
+      weapon_hit_hammer_38: 911007253
+      weapon_hit_hammer_30: 1457732842
+      weapon_hit_hammer_18: 527368536
+      weapon_hit_hammer_12: 1781331302
+      weapon_hit_hammer_24: -343633444
+      weapon_hit_hammer_56: 808068180
+      weapon_hit_hammer_52: 816675418
+      weapon_hit_hammer_33: 616937925
+      weapon_hit_hammer_15: -1478786918
+      weapon_hit_hammer_25: -1881454727
+      weapon_hit_hammer_16: 1043661927
+      weapon_hit_hammer_19: 1361833560
+      weapon_hit_hammer_13: -2061242724
+      weapon_hit_hammer_42: -215333820
+      weapon_hit_hammer_45: 550771840
+      weapon_hit_hammer_66: -1521327974
+      weapon_hit_hammer_43: -1670485336
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -28,6 +28,11 @@ public class StateController : MonoBehaviour
         {
             hitTimer -= Time.fixedDeltaTime;
         }
+
+        if(hitTimer < 0)
+        {
+            hitTimer = 0;
+        }
     }
 
     public Orientation getOrientation()

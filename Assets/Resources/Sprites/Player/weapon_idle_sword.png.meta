@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 80
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_sword_0
+      name: weapon_idle_sword_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,20 +137,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26377d56042474d4ba95a485d6e8abae
-      internalID: -1098899480
+      spriteID: af469622df09e884b951bdff69362880
+      internalID: 264636078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_1
+      name: weapon_idle_sword_1
       rect:
         serializedVersion: 2
         x: 360
@@ -158,20 +158,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf4713b37e9053141aabf468d9dc9830
-      internalID: -83508328
+      spriteID: 6ffb5c2b8cf809c488d9ee0441bdee77
+      internalID: -1795034838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_2
+      name: weapon_idle_sword_2
       rect:
         serializedVersion: 2
         x: 720
@@ -179,20 +179,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0f8835a0f0f14419f0d6cad02dc9f0
-      internalID: 1641429518
+      spriteID: d69372bb11dab6a42bc6160b15e2a9b5
+      internalID: 203913299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_3
+      name: weapon_idle_sword_3
       rect:
         serializedVersion: 2
         x: 1080
@@ -200,20 +200,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc908906829f4f34499e8906519f3728
-      internalID: 1089261221
+      spriteID: 4aceb9b09d9292447ae62fecf4591166
+      internalID: -435511815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_4
+      name: weapon_idle_sword_4
       rect:
         serializedVersion: 2
         x: 1440
@@ -221,20 +221,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f099b88a1a8ba8a40961e6d63fe24224
-      internalID: -2068000751
+      spriteID: 280654f2df2fc4d4db36f4b5416770f7
+      internalID: 48346202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_5
+      name: weapon_idle_sword_5
       rect:
         serializedVersion: 2
         x: 1800
@@ -242,20 +242,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d273d035927f1114fae3e1ddc3dc78d1
-      internalID: -1261009857
+      spriteID: 16662f6aa70dee643af541d657612e05
+      internalID: -2051198435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_6
+      name: weapon_idle_sword_6
       rect:
         serializedVersion: 2
         x: 2160
@@ -263,20 +263,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79caf940bf663b74dabcc52d5c1ad470
-      internalID: -762465700
+      spriteID: 15582db966bb01648bf9f78ff879bc40
+      internalID: 1550631380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_7
+      name: weapon_idle_sword_7
       rect:
         serializedVersion: 2
         x: 2520
@@ -284,20 +284,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9a781ae9ae1f08429e300b9412592e3
-      internalID: -135043671
+      spriteID: 802c3ae5f7c98ad46b3058bf008cb438
+      internalID: -507428103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_8
+      name: weapon_idle_sword_8
       rect:
         serializedVersion: 2
         x: 2880
@@ -305,20 +305,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea37425747ec0e94d82298bff4e1b108
-      internalID: 854610052
+      spriteID: 61c0cd1efcd512045b050cc519574c87
+      internalID: -1165322727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_9
+      name: weapon_idle_sword_9
       rect:
         serializedVersion: 2
         x: 3240
@@ -326,20 +326,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb44704dd32fa0b4381c069be2128246
-      internalID: 1644845355
+      spriteID: 56fd2145bc590094d8d62bfe48e82baf
+      internalID: 380403495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_10
+      name: weapon_idle_sword_10
       rect:
         serializedVersion: 2
         x: 3600
@@ -347,20 +347,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8892cf6a55d7b084dbd7e6ab0ea40b97
-      internalID: -742208844
+      spriteID: 70a67d66085028b4da3b1ad5f5d7a4c6
+      internalID: 1132743765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_11
+      name: weapon_idle_sword_11
       rect:
         serializedVersion: 2
         x: 0
@@ -368,20 +368,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b795adce84d00dd479553e920938edc3
-      internalID: -340618628
+      spriteID: 5cf58878b747c724fa84b231ba16d706
+      internalID: 1228278354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_12
+      name: weapon_idle_sword_12
       rect:
         serializedVersion: 2
         x: 360
@@ -389,20 +389,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccb3b3d6538e724a8946f0bea7e26b9
-      internalID: 1699706508
+      spriteID: 5f92ea823aee55a41996977d1e2b76f1
+      internalID: -118812898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_13
+      name: weapon_idle_sword_13
       rect:
         serializedVersion: 2
         x: 720
@@ -410,20 +410,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 274d9628c0f6d1e4ca4790b1583ee548
-      internalID: 861981375
+      spriteID: c0c414b6521196e44b52e1689de3466b
+      internalID: -1138974908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_14
+      name: weapon_idle_sword_14
       rect:
         serializedVersion: 2
         x: 1080
@@ -431,20 +431,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0021ffe6a1ab95428ed6fb2cb08450d
-      internalID: -908406917
+      spriteID: 0f5a444ea7297da45a57046b86ea6630
+      internalID: -453305901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_15
+      name: weapon_idle_sword_15
       rect:
         serializedVersion: 2
         x: 1440
@@ -452,20 +452,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac4d3cc664cd5864cafffd6e5a6a57d5
-      internalID: -515251939
+      spriteID: b91c2772551d49343851fed7c01764b3
+      internalID: 634386049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_16
+      name: weapon_idle_sword_16
       rect:
         serializedVersion: 2
         x: 1800
@@ -473,20 +473,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8054370b5a3fb4ca41f4936a21a3c5
-      internalID: 1151243577
+      spriteID: f6e175362265a68439f0fef477704229
+      internalID: -950499343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_17
+      name: weapon_idle_sword_17
       rect:
         serializedVersion: 2
         x: 2160
@@ -494,20 +494,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 660cdbd0573be9f49ad97f2775be2fd8
-      internalID: -152288663
+      spriteID: 50bb7a666abfa5b4b82cbab0e27e636b
+      internalID: -1443570850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_18
+      name: weapon_idle_sword_18
       rect:
         serializedVersion: 2
         x: 2520
@@ -515,20 +515,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee79ea724f96aba45bfd7903b5ac85da
-      internalID: 408378200
+      spriteID: cf30dd6f6396c9e4f9a2787652500724
+      internalID: 979696620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_19
+      name: weapon_idle_sword_19
       rect:
         serializedVersion: 2
         x: 2880
@@ -536,20 +536,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2b237182f92a7b4a976220f5ca02238
-      internalID: 1750016313
+      spriteID: 62d037c9096b5c54b9e08e017221f7ca
+      internalID: 1906428030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_20
+      name: weapon_idle_sword_20
       rect:
         serializedVersion: 2
         x: 3240
@@ -557,20 +557,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdad60736c84028459185c7d9c761817
-      internalID: 1881568066
+      spriteID: 43e40dd6fa5f33a43b12d7fa36b2806c
+      internalID: -904940561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_21
+      name: weapon_idle_sword_21
       rect:
         serializedVersion: 2
         x: 3600
@@ -578,20 +578,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62ef0797c17a08841aefa0fc6f21d44a
-      internalID: 2004269721
+      spriteID: efcf9e0797209b744ad3b9bb6600959b
+      internalID: -1660124883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_22
+      name: weapon_idle_sword_22
       rect:
         serializedVersion: 2
         x: 0
@@ -599,20 +599,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3b75e85461d2914c9b3de8b88443400
-      internalID: 390740099
+      spriteID: 9a12380529a83bd4394160a199991157
+      internalID: -1124537935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_23
+      name: weapon_idle_sword_23
       rect:
         serializedVersion: 2
         x: 360
@@ -620,20 +620,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ae9d61d7a08cb438ab2cade612a1ab
-      internalID: 267373271
+      spriteID: caed120048113a441bba83eeca91f678
+      internalID: -489254023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_24
+      name: weapon_idle_sword_24
       rect:
         serializedVersion: 2
         x: 720
@@ -641,20 +641,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18cd55ea2be8af049971d0195a65aa56
-      internalID: 572073479
+      spriteID: 9085f33e731943845ac7e1492e2959d7
+      internalID: 802828817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_25
+      name: weapon_idle_sword_25
       rect:
         serializedVersion: 2
         x: 1080
@@ -662,20 +662,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60997d87c12f1b348b6326dbdde5befa
-      internalID: -2016074313
+      spriteID: 0fe43642842432842b02f6b8283d1c78
+      internalID: -2025106912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_26
+      name: weapon_idle_sword_26
       rect:
         serializedVersion: 2
         x: 1440
@@ -683,20 +683,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17c2e455ea3033342b5c65e56e3c3200
-      internalID: -1550204185
+      spriteID: fd5f84e126c211344b77dd1a4b19b77d
+      internalID: 1848054529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_27
+      name: weapon_idle_sword_27
       rect:
         serializedVersion: 2
         x: 1800
@@ -704,20 +704,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18837fa090d5654da6c39dc2e243a97
-      internalID: -730017419
+      spriteID: 22107cbfa1ac0db4eaf734265a5d0d85
+      internalID: -1462558317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_28
+      name: weapon_idle_sword_28
       rect:
         serializedVersion: 2
         x: 2160
@@ -725,20 +725,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b10736a41b3e51149a3ee3faf027f5e9
-      internalID: -655022404
+      spriteID: 9c5886fcc8534344d9314b19bb731096
+      internalID: 1942494499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_29
+      name: weapon_idle_sword_29
       rect:
         serializedVersion: 2
         x: 2520
@@ -746,20 +746,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e392fcbc60d29a4ea874c91629c4e30
-      internalID: 1332735713
+      spriteID: 39d8958ae88570b47ab1c629e801939d
+      internalID: -1755707500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_30
+      name: weapon_idle_sword_30
       rect:
         serializedVersion: 2
         x: 2880
@@ -767,20 +767,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d5a453adc448b42903125f0bea642e
-      internalID: 1826907729
+      spriteID: 517307379e60b0e43884839db934bf09
+      internalID: -1134019388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_31
+      name: weapon_idle_sword_31
       rect:
         serializedVersion: 2
         x: 3240
@@ -788,20 +788,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 517a4fc1748ba234eafb80e095cb56ca
-      internalID: 726289129
+      spriteID: d0ce87f6fd76f6842a15b5634b4bb2db
+      internalID: 367324824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_32
+      name: weapon_idle_sword_32
       rect:
         serializedVersion: 2
         x: 3600
@@ -809,20 +809,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 714a4b9ad0eedc7488d0355dc50eba22
-      internalID: 266621938
+      spriteID: 446358162396c2d4a8e752b4bf0ba5a1
+      internalID: 112247503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_33
+      name: weapon_idle_sword_33
       rect:
         serializedVersion: 2
         x: 0
@@ -830,20 +830,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 579eaa5aa53259e4eaa4669872b3265b
-      internalID: 839860650
+      spriteID: 475bfbc5d02dd76458ddd81728e24200
+      internalID: 418077202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_34
+      name: weapon_idle_sword_34
       rect:
         serializedVersion: 2
         x: 360
@@ -851,20 +851,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13270d73f8bda4144a3134edd93b1fe4
-      internalID: -1356896245
+      spriteID: 1a57599c139e00942a683b720b5ab58f
+      internalID: 249748294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_35
+      name: weapon_idle_sword_35
       rect:
         serializedVersion: 2
         x: 720
@@ -872,20 +872,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af7a7d0c1cf10e409f7d5548426b999
-      internalID: 160463849
+      spriteID: b1c78ea7b84a50e4a8e6c5aca73d030e
+      internalID: 79900428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_36
+      name: weapon_idle_sword_36
       rect:
         serializedVersion: 2
         x: 1080
@@ -893,20 +893,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68a13104dae74043b075def70afe6d9
-      internalID: -2037929810
+      spriteID: 303df1803a792644190cf41ba3435104
+      internalID: -111661605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_37
+      name: weapon_idle_sword_37
       rect:
         serializedVersion: 2
         x: 1440
@@ -914,20 +914,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43ab65027626aab4fb0f96a7d65b783f
-      internalID: -1569963627
+      spriteID: 8036ac028485be94dbd23c8b91557508
+      internalID: 1759158496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_38
+      name: weapon_idle_sword_38
       rect:
         serializedVersion: 2
         x: 1800
@@ -935,20 +935,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34d5347e55abb64bbf525b6c5086048
-      internalID: 240573569
+      spriteID: 9e3124b5f36d87042a72fd5dbe12ddcd
+      internalID: -953808085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_39
+      name: weapon_idle_sword_39
       rect:
         serializedVersion: 2
         x: 2160
@@ -956,20 +956,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44d683675d037340ac4826121ee7da3
-      internalID: 1047386735
+      spriteID: 4af7a81140db7f24eb1713c39e7b79e8
+      internalID: -1036249793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_40
+      name: weapon_idle_sword_40
       rect:
         serializedVersion: 2
         x: 2520
@@ -977,20 +977,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb0642f8dc8f8fd4f97445330d81884b
-      internalID: 1473581408
+      spriteID: 5609283931a6f2641b73f7021f34bafe
+      internalID: 608383246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_41
+      name: weapon_idle_sword_41
       rect:
         serializedVersion: 2
         x: 2880
@@ -998,20 +998,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93a60057bf52cfb418cbeb9d11ef9b6e
-      internalID: -1730704566
+      spriteID: 9e56bc40ec10f0647849092e6c9ef586
+      internalID: -1671834562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_42
+      name: weapon_idle_sword_42
       rect:
         serializedVersion: 2
         x: 3240
@@ -1019,20 +1019,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11555e57102b4514e832d87ac5729a52
-      internalID: 905249766
+      spriteID: 9e44bf74b17b2ed4fa3efb1ae32fe558
+      internalID: -1486217925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_43
+      name: weapon_idle_sword_43
       rect:
         serializedVersion: 2
         x: 3600
@@ -1040,20 +1040,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f17d008f1fb65144baf8dcf428122f6
-      internalID: -732671032
+      spriteID: c0746e0d9e668a548a108c95687472cb
+      internalID: -8301053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_44
+      name: weapon_idle_sword_44
       rect:
         serializedVersion: 2
         x: 0
@@ -1061,20 +1061,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7dae895e85114648bfd2260d06971b1
-      internalID: 676205245
+      spriteID: e826e69a4e8f9594c801f6c0d4837d51
+      internalID: 1152709027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_45
+      name: weapon_idle_sword_45
       rect:
         serializedVersion: 2
         x: 360
@@ -1082,20 +1082,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 249a241b72bb7064f9fc327736ee4047
-      internalID: 142839021
+      spriteID: 7819944432811224d9fb4279fef556d8
+      internalID: 1935586990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_46
+      name: weapon_idle_sword_46
       rect:
         serializedVersion: 2
         x: 720
@@ -1103,20 +1103,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef171da88bbf15b40a27476a199f2013
-      internalID: 1245638591
+      spriteID: 2b64ee78f2dea8245acc23a235efe5a6
+      internalID: 1287201191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_47
+      name: weapon_idle_sword_47
       rect:
         serializedVersion: 2
         x: 1080
@@ -1124,20 +1124,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18d478511573e324696a03ede0894d15
-      internalID: 1227035644
+      spriteID: d746dfece43d85e45a1622a2ca8183fd
+      internalID: 757528986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_48
+      name: weapon_idle_sword_48
       rect:
         serializedVersion: 2
         x: 1440
@@ -1145,20 +1145,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 983ff5ed948c92c43894214a7f348491
-      internalID: -2267852
+      spriteID: 35dfc6676f0485243b716faa57bf8ae8
+      internalID: 1910673939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_49
+      name: weapon_idle_sword_49
       rect:
         serializedVersion: 2
         x: 1800
@@ -1166,20 +1166,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bde7797143c51f46b09ed18c15ab5fe
-      internalID: -1396278317
+      spriteID: 9e9aef09161b2d24dbbe2b7b629c6e07
+      internalID: -967985181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_50
+      name: weapon_idle_sword_50
       rect:
         serializedVersion: 2
         x: 2160
@@ -1187,20 +1187,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c9ae7db15f20e428b286045ee919a8
-      internalID: 1198756315
+      spriteID: 761b1c79d668cdb4482a7b9ae4fa7af9
+      internalID: 1062212060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_51
+      name: weapon_idle_sword_51
       rect:
         serializedVersion: 2
         x: 2520
@@ -1208,20 +1208,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 932d68fc8e64fcd4ba02571c43583313
-      internalID: 163912750
+      spriteID: eed2a05dbfe8d7b4e9473abbeafc2272
+      internalID: 1692111109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_52
+      name: weapon_idle_sword_52
       rect:
         serializedVersion: 2
         x: 2880
@@ -1229,20 +1229,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63af38cf98bcd0c40a404d114d2974f6
-      internalID: 1218510267
+      spriteID: 412b93f63d32fb14e9cb3141ea874608
+      internalID: 635823930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_53
+      name: weapon_idle_sword_53
       rect:
         serializedVersion: 2
         x: 3240
@@ -1250,20 +1250,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61766508f8c4b734e8e4c2847f086a5a
-      internalID: 1325848384
+      spriteID: 60029395fee5b914bbf786aafe76542b
+      internalID: -408137047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_54
+      name: weapon_idle_sword_54
       rect:
         serializedVersion: 2
         x: 3600
@@ -1271,20 +1271,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de0ca544effc42e43a16b7208786e0b1
-      internalID: 465800048
+      spriteID: b0bc8e55f270a634392ade054c7247ce
+      internalID: -58994700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_55
+      name: weapon_idle_sword_55
       rect:
         serializedVersion: 2
         x: 0
@@ -1292,20 +1292,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4374d6382c9da65439b28e4b488df96b
-      internalID: 1148359837
+      spriteID: e06a51f52673e5840b229d3f21087de8
+      internalID: 2114074159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_56
+      name: weapon_idle_sword_56
       rect:
         serializedVersion: 2
         x: 360
@@ -1313,20 +1313,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b52efcff24fa0144ba3aebcbc617fc3
-      internalID: -1679188373
+      spriteID: c5fe952d620629c4c9d667b53978adf5
+      internalID: -2053144925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_57
+      name: weapon_idle_sword_57
       rect:
         serializedVersion: 2
         x: 720
@@ -1334,20 +1334,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad13a39a3b70217408d046b48a74d641
-      internalID: 1177110113
+      spriteID: eef6a6d45d498c64eac3a10c775fc6c0
+      internalID: -320237137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_58
+      name: weapon_idle_sword_58
       rect:
         serializedVersion: 2
         x: 1080
@@ -1355,20 +1355,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 200c475f1edb73f40b1e68a9bb8fa66b
-      internalID: -840259720
+      spriteID: cf43a0dda8960524282388ee5b3ebf5c
+      internalID: -1831714889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_59
+      name: weapon_idle_sword_59
       rect:
         serializedVersion: 2
         x: 1440
@@ -1376,20 +1376,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36a70cfe480966a4da350e0adc350c14
-      internalID: 2064247887
+      spriteID: 00f912dbb967b4841b65cad61f63b650
+      internalID: -1999604924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_60
+      name: weapon_idle_sword_60
       rect:
         serializedVersion: 2
         x: 1800
@@ -1397,20 +1397,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 638e26ba98d62894fa5a8d0a596afaf0
-      internalID: -131172095
+      spriteID: 75f727082fcb9d349b67b0f9d75eba51
+      internalID: -1482675765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_61
+      name: weapon_idle_sword_61
       rect:
         serializedVersion: 2
         x: 2160
@@ -1418,20 +1418,20 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cea83b9b71af8124081713099c347a0b
-      internalID: 1507347818
+      spriteID: 63fe9a391eb719a4ab024a3afcf34bb3
+      internalID: 2102060054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_62
+      name: weapon_idle_sword_62
       rect:
         serializedVersion: 2
         x: 2520
@@ -1439,14 +1439,14 @@ TextureImporter:
         width: 360
         height: 300
       alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      pivot: {x: 0.48, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5944b628fff4dbd45b83b291dcba7235
-      internalID: -1121137142
+      spriteID: 33902d6f0bc1b9f4fa8b5fb0bdc1283b
+      internalID: 1463320537
       vertices: []
       indices: 
       edges: []
@@ -1462,69 +1462,69 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idle_sword_60: -131172095
-      idle_sword_0: -1098899480
-      idle_sword_23: 267373271
-      idle_sword_58: -840259720
-      idle_sword_14: -908406917
-      idle_sword_29: 1332735713
-      idle_sword_44: 676205245
-      idle_sword_32: 266621938
-      idle_sword_37: -1569963627
-      idle_sword_1: -83508328
-      idle_sword_48: -2267852
-      idle_sword_51: 163912750
-      idle_sword_4: -2068000751
-      idle_sword_45: 142839021
-      idle_sword_9: 1644845355
-      idle_sword_5: -1261009857
-      idle_sword_17: -152288663
-      idle_sword_54: 465800048
-      idle_sword_34: -1356896245
-      idle_sword_35: 160463849
-      idle_sword_15: -515251939
-      idle_sword_46: 1245638591
-      idle_sword_20: 1881568066
-      idle_sword_24: 572073479
-      idle_sword_12: 1699706508
-      idle_sword_28: -655022404
-      idle_sword_19: 1750016313
-      idle_sword_61: 1507347818
-      idle_sword_22: 390740099
-      idle_sword_39: 1047386735
-      idle_sword_57: 1177110113
-      idle_sword_16: 1151243577
-      idle_sword_38: 240573569
-      idle_sword_2: 1641429518
-      idle_sword_62: -1121137142
-      idle_sword_33: 839860650
-      idle_sword_21: 2004269721
-      idle_sword_40: 1473581408
-      idle_sword_31: 726289129
-      idle_sword_18: 408378200
-      idle_sword_41: -1730704566
-      idle_sword_7: -135043671
-      idle_sword_50: 1198756315
-      idle_sword_10: -742208844
-      idle_sword_3: 1089261221
-      idle_sword_6: -762465700
-      idle_sword_47: 1227035644
-      idle_sword_59: 2064247887
-      idle_sword_26: -1550204185
-      idle_sword_8: 854610052
-      idle_sword_43: -732671032
-      idle_sword_56: -1679188373
-      idle_sword_13: 861981375
-      idle_sword_52: 1218510267
-      idle_sword_27: -730017419
-      idle_sword_53: 1325848384
-      idle_sword_11: -340618628
-      idle_sword_36: -2037929810
-      idle_sword_55: 1148359837
-      idle_sword_30: 1826907729
-      idle_sword_25: -2016074313
-      idle_sword_49: -1396278317
-      idle_sword_42: 905249766
+      weapon_idle_sword_39: -1036249793
+      weapon_idle_sword_22: -1124537935
+      weapon_idle_sword_4: 48346202
+      weapon_idle_sword_34: 249748294
+      weapon_idle_sword_27: -1462558317
+      weapon_idle_sword_43: -8301053
+      weapon_idle_sword_23: -489254023
+      weapon_idle_sword_37: 1759158496
+      weapon_idle_sword_9: 380403495
+      weapon_idle_sword_32: 112247503
+      weapon_idle_sword_51: 1692111109
+      weapon_idle_sword_58: -1831714889
+      weapon_idle_sword_61: 2102060054
+      weapon_idle_sword_7: -507428103
+      weapon_idle_sword_8: -1165322727
+      weapon_idle_sword_59: -1999604924
+      weapon_idle_sword_14: -453305901
+      weapon_idle_sword_18: 979696620
+      weapon_idle_sword_3: -435511815
+      weapon_idle_sword_1: -1795034838
+      weapon_idle_sword_55: 2114074159
+      weapon_idle_sword_30: -1134019388
+      weapon_idle_sword_26: 1848054529
+      weapon_idle_sword_31: 367324824
+      weapon_idle_sword_25: -2025106912
+      weapon_idle_sword_54: -58994700
+      weapon_idle_sword_42: -1486217925
+      weapon_idle_sword_49: -967985181
+      weapon_idle_sword_11: 1228278354
+      weapon_idle_sword_38: -953808085
+      weapon_idle_sword_19: 1906428030
+      weapon_idle_sword_20: -904940561
+      weapon_idle_sword_12: -118812898
+      weapon_idle_sword_17: -1443570850
+      weapon_idle_sword_50: 1062212060
+      weapon_idle_sword_36: -111661605
+      weapon_idle_sword_6: 1550631380
+      weapon_idle_sword_0: 264636078
+      weapon_idle_sword_13: -1138974908
+      weapon_idle_sword_62: 1463320537
+      weapon_idle_sword_35: 79900428
+      weapon_idle_sword_29: -1755707500
+      weapon_idle_sword_60: -1482675765
+      weapon_idle_sword_47: 757528986
+      weapon_idle_sword_48: 1910673939
+      weapon_idle_sword_53: -408137047
+      weapon_idle_sword_16: -950499343
+      weapon_idle_sword_45: 1935586990
+      weapon_idle_sword_41: -1671834562
+      weapon_idle_sword_40: 608383246
+      weapon_idle_sword_2: 203913299
+      weapon_idle_sword_21: -1660124883
+      weapon_idle_sword_57: -320237137
+      weapon_idle_sword_24: 802828817
+      weapon_idle_sword_5: -2051198435
+      weapon_idle_sword_15: 634386049
+      weapon_idle_sword_44: 1152709027
+      weapon_idle_sword_28: 1942494499
+      weapon_idle_sword_52: 635823930
+      weapon_idle_sword_33: 418077202
+      weapon_idle_sword_46: 1287201191
+      weapon_idle_sword_56: -2053144925
+      weapon_idle_sword_10: 1132743765
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

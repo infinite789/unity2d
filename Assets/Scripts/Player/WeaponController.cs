@@ -11,42 +11,42 @@ public class WeaponController : MonoBehaviour
     public CharacterLayerController[] characterLayerControllers;
     public WeaponLayerController[] weaponLayerControllers;
     private StateController stateController;
-    public string animationString;
-    public string defaultWeapon = "sword";
-
-    private bool isActive = false;
-    public bool _isActive
-    {
-        get { return isActive; }
-        set
-        {
-            if (isActive == value)
-                return;
-
-            isActive = value;
-
-            if (OnToggleActive != null)
-                OnToggleActive(isActive);
-        }
-    }
-    public delegate void ToggleActive(bool newVal);
-    public static event ToggleActive OnToggleActive;
-
+    public string currentWeapon = "sword";
+    public List<string> weapons = new List<string> { "sword", "hammer" };
 
     // Start is called before the first frame update
     void Awake()
     {
         Debug.Log("Awake Weapon");
-
-        OnToggleActive += ToggleLayerHandler;
-
         stateController = GameObject.FindObjectOfType<StateController>();
 
         gameObject.SetActive(stateController.hasWeapon);
+
     }
-    private void ToggleLayerHandler(bool newVal)
+    private void OnEnable()
     {
-        //do whatever
+        for (int i = 0; i < weaponLayerControllers.Length; i++)
+        {
+            Debug.Log("syncing");
+            weaponLayerControllers[i].anim.animationCounter = 0;
+            weaponLayerControllers[i].anim.spriteId = 0;
+        }
+
+        for (int i = 0; i < characterLayerControllers.Length; i++)
+        {
+            Debug.Log("syncing");
+            characterLayerControllers[i].anim.animationCounter = 0;
+            characterLayerControllers[i].anim.spriteId = 0;
+        }
+
+        if (stateController.getCurrentOrientationString().Contains("up"))
+        {
+            SetZPos(-0.5f);
+        }
+        else
+        {
+            SetZPos(0.0f);
+        }
     }
 
     private void Update()
@@ -54,27 +54,14 @@ public class WeaponController : MonoBehaviour
         if (stateController.isFiring && stateController.hitTimer <= 0)
         {
             stateController.isFiring = false;
-            Debug.Log("hello my friend");
-            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
-            if (animationString.Contains("sword") && !animationString.Contains("up"))
-            {
-                SetZPos(-0f);
-            }
+            
         }
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        //Debug.Log(hitTimer);
-        //Debug.Log(stateController.isFiring);
-        //Debug.Log(anim.config[0].animationClass);
-        string currentOrientation = stateController.getCurrentOrientationString();
-        string currentClass = stateController.getCurrentClass();
 
-        animationString = currentClass + "_" + currentOrientation;
-
-        //Debug.Log(hitTimer);
     }
 
     private void OnFire(InputValue input)
@@ -87,6 +74,13 @@ public class WeaponController : MonoBehaviour
                 stateController.isFiring = true;
                 Debug.Log("before syncing");
 
+                for (int i = 0; i < weaponLayerControllers.Length; i++)
+                {
+                    Debug.Log("syncing");
+                    weaponLayerControllers[i].anim.animationCounter = 0;
+                    weaponLayerControllers[i].anim.spriteId = 0;
+                }
+
                 for (int i = 0; i < characterLayerControllers.Length; i++)
                 {
                     Debug.Log("syncing");
@@ -94,16 +88,13 @@ public class WeaponController : MonoBehaviour
                     characterLayerControllers[i].anim.spriteId = 0;
                 }
             }
-            Debug.Log(animationString);
-            if (animationString.Contains("up"))
+            if (stateController.getCurrentOrientationString().Contains("up"))
             {
-                SetZPos(-1f);
-
-
+                SetZPos(-0.5f);
             }
             else
             {
-                SetZPos(-0.15f);
+                SetZPos(0f);
             }
         }
     }
@@ -112,13 +103,41 @@ public class WeaponController : MonoBehaviour
     {
         moveInput = input.Get<Vector2>();
 
-        if (animationString.Contains("up"))
+        if (stateController.getCurrentOrientationString().Contains("up"))
         {
-            SetZPos(-0.6f);
+            SetZPos(-0.5f);
         }
         else
         {
-            SetZPos(0.15f);
+            SetZPos(0f);
+        }
+    }
+
+    public void OnSwitchWeapon()
+    {
+        int id = weapons.FindIndex(weapon => weapon.Contains(currentWeapon));
+        id = (id + 1) % weapons.Count;
+        currentWeapon = weapons[id];
+
+        for (int i = 0; i < weaponLayerControllers.Length; i++)
+        {
+            weaponLayerControllers[i].currentWeapon = currentWeapon;
+        }
+
+
+        for (int i = 0; i < weaponLayerControllers.Length; i++)
+        {
+            Debug.Log("syncing");
+            weaponLayerControllers[i].anim.animationCounter = 0;
+            weaponLayerControllers[i].anim.spriteId = 0;
+        }
+
+        for (int i = 0; i < characterLayerControllers.Length; i++)
+        {
+            Debug.Log("syncing");
+            characterLayerControllers[i].anim.animationCounter = 0;
+            characterLayerControllers[i].anim.spriteId = 0;
+            characterLayerControllers[i].anim.appendix = currentWeapon;
         }
     }
 

@@ -13,7 +13,19 @@ public class WeaponLayerController : MonoBehaviour
     private CharacterController characterController;
     public CharacterLayerController[] characterLayerControllers;
     private StateController stateController;
-    public string animationString;
+    private string _currentWeapon = "sword";
+    public string currentWeapon
+    {
+        get 
+        { 
+            return _currentWeapon; 
+        }
+        set
+        {
+            _currentWeapon = value;
+            OnChangeWeapon(value);
+        }
+    }
 
     // Start is called before the first frame update
     void Awake()
@@ -36,77 +48,28 @@ public class WeaponLayerController : MonoBehaviour
             anim.renderer.flipX = false;
         }
 
-        if(this.tag == "weapon-" + parentController.defaultWeapon)
+        if (this.tag == "weapon-" + parentController.currentWeapon)
             this.gameObject.SetActive(true);
         else
             this.gameObject.SetActive(false);
     }
-
-    private void Update()
+    private void ToggleLayerHandler(bool newVal)
     {
-        if (stateController.isFiring && stateController.hitTimer <= 0)
-        {
-            stateController.isFiring = false;
-            Debug.Log("hello my friend, i'm firing!!");
-            string animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
-            if (!animationString.Contains("up"))
-            {
-                SetZPos(-0f);
-            }
-        }
+        Debug.Log("ToggleLayerHandler");
+        this.transform.parent.gameObject.SetActive(stateController.hasWeapon);
     }
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        animationString = stateController.getCurrentClass() + "_" + stateController.getCurrentOrientationString();
         anim.UpdateAnimation(moveInput);
-    }
-
-
-    private void OnFire(InputValue input)
-    {
-        if (stateController.hasWeapon)
-        {
-            if (!stateController.isFiring && moveInput == Vector2.zero)
-            {
-                stateController.hitTimer = stateController.hitDuration;
-                stateController.isFiring = true;
-                Debug.Log("before syncing");
-
-                for (int i = 0; i < characterLayerControllers.Length; i++)
-                {
-                    Debug.Log("syncing");
-                    characterLayerControllers[i].anim.animationCounter = 0;
-                    characterLayerControllers[i].anim.spriteId = 0;
-                }
-                anim.animationCounter = 0;
-                anim.spriteId = 0;
-            }
-            if (animationString.Contains("up"))
-            {
-                SetZPos(-1f);
-            }
-            else
-            {
-                SetZPos(-0.15f);
-            }
-        }
     }
 
     private void OnMove(InputValue input)
     {
         moveInput = input.Get<Vector2>();
         flipXOnMove();
-
-        if (animationString.Contains("up"))
-        {
-            SetZPos(-0.6f);
-        }
-        else
-        {
-            SetZPos(0.15f);
-        }
     }
 
     public void flipXOnMove()
@@ -141,6 +104,20 @@ public class WeaponLayerController : MonoBehaviour
         }
     }
 
+    public void OnChangeWeapon(string weapon)
+    {
+        Debug.Log(this.tag);
+        Debug.Log(weapon);
+        if(this.tag.Contains(weapon))
+        {
+            gameObject.SetActive(true);
+        } else
+        {
+            gameObject.SetActive(false);
+        }
+        flipXOnMove();
+
+    }
 
     public void SetZPos(float zPos)
     {

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,190 +129,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_sword_0
+      name: weapon_run_hammer_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88b2058d774539143963da28b9140c27
-      internalID: 987593883
+      spriteID: 8f673c381b589454e821afa9103f41b2
+      internalID: -914860322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_1
+      name: weapon_run_hammer_1
       rect:
         serializedVersion: 2
         x: 447
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12584206ba648f94ea9efa0818ed976e
-      internalID: -437429663
+      spriteID: 5f66531de9516ef4c9b28c895566bda8
+      internalID: 932968806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_2
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 055aea0e859abd24cac6b8fee0de4738
-      internalID: 1715786810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_3
+      name: weapon_run_hammer_2
       rect:
         serializedVersion: 2
         x: 1341
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dd575701ed5e344fb426043e822b818
-      internalID: 1151175700
+      spriteID: e417f94ecb85ad4418c3893bd2a85f43
+      internalID: 614303946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_4
+      name: weapon_run_hammer_3
       rect:
         serializedVersion: 2
         x: 1788
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71d61d01ca177ad44a6bfb14dccc5d54
-      internalID: 1006860606
+      spriteID: f048dfbba389e5743a9299d17753ea0e
+      internalID: -994304711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_sword_5
-      rect:
-        serializedVersion: 2
-        x: 2235
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fae9a06aa436d1f41af8881e7ddf33ac
-      internalID: -929585293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_6
-      rect:
-        serializedVersion: 2
-        x: 2682
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fc8171651a3b2244a9ab9a8e2fa2dc2
-      internalID: 1973119083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_7
-      rect:
-        serializedVersion: 2
-        x: 3129
-        y: 0
-        width: 447
-        height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72cedc789f8f98e4eab66e944b4f4d91
-      internalID: 875052560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_sword_8
+      name: weapon_run_hammer_4
       rect:
         serializedVersion: 2
         x: 3576
         y: 0
-        width: 447
+        width: 447.66666
         height: 432
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9525af631710a84b9babf73a1eb3999
-      internalID: 1411275986
+      spriteID: 80227c760a321b042bdbda32dac7b9c4
+      internalID: -1715622785
       vertices: []
       indices: 
       edges: []
@@ -328,15 +244,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idle_sword_0: 987593883
-      idle_sword_2: 1715786810
-      idle_sword_1: -437429663
-      idle_sword_4: 1006860606
-      idle_sword_5: -929585293
-      idle_sword_7: 875052560
-      idle_sword_3: 1151175700
-      idle_sword_6: 1973119083
-      idle_sword_8: 1411275986
+      weapon_run_hammer_0: -914860322
+      weapon_run_hammer_2: 614303946
+      weapon_run_hammer_3: -994304711
+      weapon_run_hammer_4: -1715622785
+      weapon_run_hammer_1: 932968806
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
